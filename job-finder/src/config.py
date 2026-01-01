@@ -35,12 +35,12 @@ COMPANIES = [
     
     # Companies with intermittent issues (browser detection):
     # You can try adding these back, but they may fail sometimes
-    # {
-    #     "name": "Celonis",
-    #     "url": "https://careers.celonis.com/join-us/open-positions?seniority=Working+Student+%26+Intern&groupedLocation=Munich%2C+Germany%7CRemote%2C+Germany",
-    #     "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
-    #     "locations": ["Germany", "Munich", "Remote"],
-    # },
+    {
+        "name": "Celonis",
+        "url": "https://careers.celonis.com/join-us/open-positions?seniority=Working+Student+%26+Intern&groupedLocation=Munich%2C+Germany%7CRemote%2C+Germany",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany", "Munich", "Remote"],
+    },
 ]
 
 # Legacy format (for backwards compatibility)
