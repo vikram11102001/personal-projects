@@ -40,6 +40,7 @@ COMPANIES = [
         "url": "https://careers.celonis.com/join-us/open-positions?seniority=Working+Student+%26+Intern&groupedLocation=Munich%2C+Germany%7CRemote%2C+Germany",
         "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
         "locations": ["Germany", "Munich", "Remote"],
+        "use_api": False,  # Disable API - HTML scraping works better for pre-filtered URLs
     },
 ]
 
