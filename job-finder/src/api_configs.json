@@ -1,0 +1,94 @@
+{
+  "mediamarkt-saturn": {
+    "company_name": "MediaMarkt Saturn",
+    "career_url": "https://careers.mediamarktsaturn.com/",
+    "endpoint": "https://searchui.search.windows.net/indexes/mms-prod/docs/search?api-version=2020-06-30",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8",
+      "api-key": "6BBD74F1CBD41E5B0232FB05C5B78ED9",
+      "referer": "https://careers.mediamarktsaturn.com/"
+    },
+    "payload_template": {
+      "count": true,
+      "facets": [],
+      "filter": "datePosted lt {current_time} and (addresses/any(jt: jt/country eq '{country}')) and language eq 'en_US'",
+      "search": "/.*(intern|internship|werkstudent|praktikum).*/",
+      "queryType": "full",
+      "searchFields": "jobId,title,description",
+      "skip": 0,
+      "top": 100
+    },
+    "response_format": {
+      "jobs_path": "value",
+      "title_field": "title",
+      "location_fields": [
+        "addresses",
+        0,
+        "city"
+      ],
+      "url_field": "externalPath",
+      "url_prefix": "https://careers.mediamarktsaturn.com"
+    },
+    "discovered_at": "2026-01-01T05:00:00Z",
+    "last_verified": "2026-01-01T05:00:00Z",
+    "status": "active"
+  },
+  "siemens": {
+    "endpoint": "https://jobs.siemens.com/en_US/externaljobs/_wizardPortalDatasetSingleColumnOptionsSearchApi",
+    "method": "POST",
+    "headers": {
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "referer": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs"
+    },
+    "payload_template": {
+      "datasetFieldSchemaFieldId": "FI5bDPeVeHkV5rSYbGELVtzRsbH3ZzFqTbkgR5DGpYIPvOn8g+tbCwxG6Bob",
+      "schemaFieldIdToUseForIndirectFiltering": "SiKkZGlVI1P9yAYkHgwHSub0LFIpdypmyINleKfWdT6vYnPx3k6qDoS/Uvg=",
+      "filters": [
+        {
+          "operator": "!=",
+          "datasetSpecIdFilter": "+tXjzyZQBXeXPTG9V/MtSg9gIy/UzCK0MMkGFoHX2rOJg8g46AeYGcKU",
+          "schemaFieldNumberFilter": "n3nxWxDE+Hc5/Frk1cV8T4Zjj/zZO2hStqXXgAKCX7bLjqK/8HuRmg==",
+          "value": 255284129,
+          "entityId": null,
+          "type": "fixed"
+        }
+      ],
+      "optionFormatComponents": [
+        {
+          "type": "field",
+          "order": 0,
+          "fieldNumberOrText": "oRbhhwo52E6Nnmj/vSia7ggp0jRVnVYmv8DBJRIHCMLqYeAM73+wgOQ="
+        }
+      ],
+      "searchIds": null,
+      "currentOptionsIds": [],
+      "page": 1,
+      "limit": 3,
+      "searchText": "intern",
+      "exactMatch": false,
+      "datasetSchemaSpecId": "PKNBK6mmJiKW/2jRwMtFVW1WoYJnZAx/CQINTJisRqefhtHJyg3DunKE"
+    },
+    "response_sample": null,
+    "discovered_at": "2026-01-01T06:35:50.941200Z",
+    "career_url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs",
+    "company_name": "Siemens",
+    "last_verified": "2026-01-01T06:35:50.963126Z",
+    "status": "active"
+  },
+  "robominds": {
+    "endpoint": "https://o377622.ingest.sentry.io/api/5200008/envelope/?sentry_version=7&sentry_key=d46e55ffdd114093971dd659e5bf890b&sentry_client=sentry.javascript.nextjs%2F9.15.0",
+    "method": "POST",
+    "headers": {
+      "content-type": "text/plain;charset=UTF-8",
+      "referer": "https://join.com/companies/robominds"
+    },
+    "payload_template": "{\"sent_at\":\"2026-01-01T06:44:03.378Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"9.15.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d419c3daf9dd4d8aa6b308af02211a7f\",\"init\":true,\"started\":\"2026-01-01T06:44:03.378Z\",\"timestamp\":\"2026-01-01T06:44:03.378Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"job-ad-app@v15.6.1\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\"}}",
+    "response_sample": {},
+    "discovered_at": "2026-01-01T06:44:09.187054Z",
+    "career_url": "https://join.com/companies/robominds",
+    "company_name": "Robominds",
+    "last_verified": "2026-01-01T06:44:09.221555Z",
+    "status": "active"
+  }
+}
