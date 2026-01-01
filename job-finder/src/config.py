@@ -15,6 +15,41 @@ import os
 # - use_api: If True (default), tries to use discovered API. If False, uses HTML scraping.
 #
 COMPANIES = [
+    {
+        "name": "MediaMarkt Saturn",
+        "slug": "mediamarkt-saturn",  # This slug matches the config in api_configs.json
+        "url": "https://careers.mediamarktsaturn.com/",
+        "keywords": ["intern", "internship", "werkstudent", "working student"],
+        "locations": ["Germany", "DEU"],
+        "use_api": True,  # Use automatic API discovery
+    },
+    {
+        "name": "Robominds",
+        "url": "https://join.com/companies/robominds",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany", "Munich"],
+    },
+    
+    # Only keeping reliably working companies for now
+    # MediaMarkt Saturn works perfectly with API
+    
+    # Companies with intermittent issues (browser detection):
+    # You can try adding these back, but they may fail sometimes
+    {
+        "name": "Celonis",
+        "url": "https://careers.celonis.com/join-us/open-positions?seniority=Working+Student+%26+Intern&groupedLocation=Munich%2C+Germany%7CRemote%2C+Germany",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany", "Munich", "Remote"],
+        "use_api": False,  # Disable API - HTML scraping works better for pre-filtered URLs
+    },
+
+    {
+        "name": "AirBus",
+        "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus?locationCountry=dcc5b7608d8644b3a93716604e78e995&workerSubType=f5811cef9cb50193723ed01d470a6e15",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany", "Munich", "Remote"],
+        "use_api": False,  # Disable API - HTML scraping works better for pre-filtered URLs
+    },
     
 ]
 
@@ -23,7 +58,7 @@ COMPANIES = [
 COMPANY_URLS = []
 
 # Email settings
-EMAIL_RECIPIENT = os.getenv("EMAIL_RECIPIENT", "vikram11102001@gmail.com")
+EMAIL_RECIPIENT = os.getenv("EMAIL_RECIPIENT", "pratheeksha1902@gmail.com")
 GMAIL_EMAIL = os.getenv("GMAIL_EMAIL", "")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD", "")
 
