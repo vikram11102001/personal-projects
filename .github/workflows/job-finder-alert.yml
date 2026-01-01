@@ -1,26 +1,20 @@
 name: Job Finder - Daily Job Alert System
 
 on:
-  # Run daily at 9:00 AM UTC (2:30 PM IST)
   schedule:
     - cron: '0 9 * * *'
-  
-  # Only trigger on changes to job-finder directory
   push:
     paths:
       - 'job-finder/**'
-  
-  # Allow manual triggering for testing
   workflow_dispatch:
 
-# Set default working directory for all jobs
 defaults:
   run:
     working-directory: job-finder
 
 jobs:
   scrape-and-notify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Use specific Ubuntu version
     
     steps:
       - name: Checkout repository
@@ -32,22 +26,26 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
       
       - name: Install Python dependencies
         run: |
-          python3 -m pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Install Playwright and browsers
+      - name: Setup Playwright
         run: |
-          python -m playwright install chromium --with-deps
+          python -m playwright install --with-deps chromium
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: 0
       
       - name: Run job scraper
         env:
           GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          PLAYWRIGHT_BROWSERS_PATH: 0
         run: |
-          python3 main.py
+          python main.py
       
       - name: Commit updated job history
         run: |
