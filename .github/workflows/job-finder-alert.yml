@@ -1,19 +1,13 @@
 name: Job Finder - Daily Job Alert System
 
 on:
-  # Run daily at 9:00 AM UTC (2:30 PM IST)
   schedule:
     - cron: '0 9 * * *'
-  
-  # Only trigger on changes to job-finder directory
   push:
     paths:
       - 'job-finder/**'
-  
-  # Allow manual triggering for testing
   workflow_dispatch:
 
-# Set default working directory for all jobs
 defaults:
   run:
     working-directory: job-finder
@@ -38,10 +32,35 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Install Playwright browsers
+      - name: Install Playwright browsers  
         run: |
-          playwright install chromium
-          playwright install-deps chromium
+          # Install Playwright browsers only (skip system deps to avoid conflicts)
+          python -m playwright install chromium
+      
+      - name: Install system dependencies manually
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libnspr4 \
+            libatk1.0-0 \
+            libatk-bridge2.0-0 \
+            libcups2 \
+            libdrm2 \
+            libdbus-1-3 \
+            libxkbcommon0 \
+            libatspi2.0-0 \
+            libx11-6 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxext6 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libpango-1.0-0 \
+            libcairo2 \
+            libasound2t64 \
+            libxshmfence1
       
       - name: Run job scraper
         env:
