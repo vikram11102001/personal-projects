@@ -12,6 +12,9 @@ defaults:
   run:
     working-directory: job-finder
 
+permissions:
+  contents: write  # ← ADD THIS!
+
 jobs:
   scrape-and-notify:
     runs-on: ubuntu-latest
