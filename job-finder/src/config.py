@@ -42,6 +42,14 @@ COMPANIES = [
         "locations": ["Germany", "Munich", "Remote"],
         "use_api": False,  # Disable API - HTML scraping works better for pre-filtered URLs
     },
+
+    {
+        "name": "AirBus",
+        "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus?locationCountry=dcc5b7608d8644b3a93716604e78e995&workerSubType=f5811cef9cb50193723ed01d470a6e15",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany", "Munich", "Remote"],
+        "use_api": False,  # Disable API - HTML scraping works better for pre-filtered URLs
+    },
 ]
 
 # Legacy format (for backwards compatibility)
