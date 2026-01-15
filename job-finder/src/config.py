@@ -124,7 +124,7 @@ COMPANIES = [
 COMPANY_URLS = []
 
 # Email settings
-EMAIL_RECIPIENT = os.getenv("EMAIL_RECIPIENT", "vikram11102001@gmail.com")
+EMAIL_RECIPIENT = os.getenv("EMAIL_RECIPIENT", "pratheeksha1902@gmail.com")
 GMAIL_EMAIL = os.getenv("GMAIL_EMAIL", "")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD", "")
 
