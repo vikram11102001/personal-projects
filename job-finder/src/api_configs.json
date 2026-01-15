@@ -90,5 +90,1026 @@
     "company_name": "Robominds",
     "last_verified": "2026-01-01T06:44:09.221555Z",
     "status": "active"
+  },
+  "vinolinde": {
+    "endpoint": "https://o377622.ingest.sentry.io/api/5200008/envelope/?sentry_version=7&sentry_key=d46e55ffdd114093971dd659e5bf890b&sentry_client=sentry.javascript.nextjs%2F9.15.0",
+    "method": "POST",
+    "headers": {
+      "content-type": "text/plain;charset=UTF-8",
+      "referer": "https://join.com/companies/vinolinde"
+    },
+    "payload_template": "{\"sent_at\":\"2026-01-15T16:25:41.108Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"9.15.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"abc187f40ddf46578445015823a0e47d\",\"init\":true,\"started\":\"2026-01-15T16:25:41.107Z\",\"timestamp\":\"2026-01-15T16:25:41.107Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"job-ad-app@v15.6.0\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\"}}",
+    "response_sample": {},
+    "discovered_at": "2026-01-15T16:25:46.969760Z",
+    "career_url": "https://join.com/companies/vinolinde",
+    "company_name": "Vinolinde",
+    "last_verified": "2026-01-15T16:25:46.999947Z",
+    "status": "active"
+  },
+  "stability-ai": {
+    "endpoint": "https://job-boards.cdn.greenhouse.io/locales/en/job_post.4FOJl_d4b8v9vgwKR1R3hVRWquJMflpqbFtgWVe9bZE.json",
+    "method": "GET",
+    "headers": {
+      "referer": "https://stability.ai/careers"
+    },
+    "payload_template": null,
+    "response_sample": {
+      "page_title": "Job Application for {{ title }} at {{ companyName }}",
+      "select": {
+        "placeholder": "Select...",
+        "clear_selection": "Clear selections",
+        "remove_selection": "Remove selection",
+        "toggle_flyout": "Toggle flyout",
+        "loading": "Loading..."
+      },
+      "ai_disclaimer": {
+        "learn_more": "Learn more",
+        "done": "Done"
+      },
+      "application": {
+        "apply_to_job": "Apply for this job",
+        "is_required": "{{ fieldName }} is required.",
+        "field_is_required": "This field is required.",
+        "invalid_email": "Please enter a valid email address (example@domain.com).",
+        "email_suggestion_prompt": "Did you mean:",
+        "missing_country": "Select a country",
+        "invalid_phone": {
+          "invalid": "Phone number is invalid",
+          "too_short": "Phone number is too short",
+          "too_long": "Phone number is too long"
+        },
+        "country": "Country",
+        "accept_terms": "Please accept the terms to proceed.",
+        "demographic_questions_answered": {
+          "message": "You answered some demographic questions. Please accept the terms to proceed, or clear your responses.",
+          "link_text": "Return to the demographic questions."
+        },
+        "required": "indicates a required field",
+        "submit": "Submit application",
+        "enter_location": "Please enter your location",
+        "errors": {
+          "generic_failure": "There was an error processing your application. Please try again.",
+          "captcha_message": "Please complete the reCAPTCHA and resubmit your application.",
+          "invalid_attribute": "Please enter a valid {{ attribute }}.",
+          "location_service_unavailable": "Our location service is temporarily unavailable. You can submit your application without a location.",
+          "invalid_filetype": "Invalid file format selected.",
+          "generic_invalid_filetype": "Attachment has an invalid file format. Please check acceptable file types and try again."
+        },
+        "quick_apply": {
+          "autofill": "Autofill with MyGreenhouse",
+          "loading": "Loading...",
+          "success": "Autofilled from",
+          "not_started": "To autofill applications, complete your",
+          "in_progress": "Want to autofill more of your application? Complete your",
+          "my_greenhouse_profile": "MyGreenhouse profile",
+          "quick_apply_profile": "quick apply profile",
+          "error": "We had an issue autofilling your application",
+          "edit_profile": "Edit profile",
+          "apply_with_seek": "Apply with Seek",
+          "seek_unavailable": "Apply with SEEK unavailable"
+        }
+      },
+      "post": {
+        "apply": "Apply",
+        "back": "Back to jobs",
+        "contacts": "Contacts",
+        "hiring_manager_one": "Hiring manager",
+        "hiring_manager_other": "Hiring managers",
+        "recruiter_one": "Recruiter",
+        "recruiter_other": "Recruiters"
+      },
+      "demographics": {
+        "self_describe_label": "Please specify"
+      },
+      "location": {
+        "label": "Location (City)",
+        "locate_me": "Locate me"
+      },
+      "eeoc": {
+        "links": {
+          "race_ethnicity_definitions": {
+            "href": "/docs/2023/RaceEthnicityDefinitions.pdf",
+            "text": "Race & Ethnicity Definitions"
+          }
+        },
+        "questions": {
+          "hispanic_ethnicity": {
+            "label": "Are you Hispanic/Latino?",
+            "answers": {
+              "0": "No",
+              "1": "Yes",
+              "2": "Decline To Self Identify"
+            }
+          },
+          "race": {
+            "label": "Please identify your race"
+          }
+        }
+      },
+      "compliance": {
+        "processing_consent": "By checking this box, I agree to allow {{ company_name }} to store and process my data for the purpose of considering my eligibility regarding my current application for employment.",
+        "retention_consent": "By checking this box, I agree to allow {{ company_name }} to retain my data for future opportunities for employment for up to {{ retention_period }} days after the conclusion of consideration of my current application for employment.",
+        "gdpr_consent": "{{ company_name }} has my consent to collect, store, and process my data for the purpose of considering me for employment, and for up to {{ retention_period }} days thereafter.",
+        "demographic_data_consent": "By checking this box, I consent to {{ company_name }} collecting, storing, and processing my responses to the demographic data surveys above."
+      },
+      "file_upload": {
+        "attach": "Attach",
+        "dropbox": "Dropbox",
+        "google": "Google Drive",
+        "manually": "Enter manually",
+        "filetypes": "Accepted file types: {{ file_types }}",
+        "invalid_file_size": "{{ file_size }} MB maximum file size.",
+        "aria": {
+          "attach": "Attach {{ label }}.",
+          "label": "Attach {{ label }} using {{ uploader }}.",
+          "manual": "Enter {{ label }} manually."
+        },
+        "try_again": "Unable to load {{ uploader }}. It has either timed out or you can try again later.",
+        "unsupported_browser": "The browser does not support {{ uploader }} upload."
+      },
+      "employment": {
+        "employment": "Employment",
+        "company_name": "Company name",
+        "title": "Title",
+        "start_date_month": "Start date month",
+        "start_date_year": "Start date year",
+        "end_date_month": "End date month",
+        "end_date_year": "End date year",
+        "current_role": "Current role",
+        "add_another": "Add another",
+        "company_name_is_required": "Company name is required.",
+        "title_is_required": "Title is required.",
+        "start_date_month_is_required": "Start date month is required.",
+        "start_date_year_is_required": "Start date year is required.",
+        "end_date_month_is_required": "End date month is required.",
+        "end_date_year_is_required": "End date year is required.",
+        "end_date_must_be_after_start_date": "End date must be after start date.",
+        "end_date_must_be_past": "End date must be in the past.",
+        "invalid_year": "Year must be a number between 1900 and 2100"
+      },
+      "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+      },
+      "education": {
+        "title": "Education",
+        "labels": {
+          "school": "School",
+          "degree": "Degree",
+          "discipline": "Discipline",
+          "start_month": "Start date month",
+          "start_year": "Start date year",
+          "end_month": "End date month",
+          "end_year": "End date year"
+        },
+        "add_another": "Add another",
+        "validation": {
+          "required": {
+            "school": "School is required.",
+            "degree": "Degree is required.",
+            "discipline": "Discipline is required.",
+            "start_month": "Start month is required.",
+            "start_year": "Start year is required.",
+            "end_month": "End month is required.",
+            "end_year": "End year is required."
+          },
+          "invalid_year": "Year must be a number between 1900 and 2100",
+          "end_date_after_start_date": "End date must be after start date."
+        }
+      },
+      "email_verification": {
+        "label": "Security code",
+        "description": "A verification code was sent to {{ email }}. To submit your application, enter the 8-character code to confirm you're a human."
+      },
+      "job_alert": {
+        "title": "Create a Job Alert",
+        "board_description": "Level-up your career by having opportunities at {{ companyName }} sent directly to your inbox.",
+        "post_description": "Interested in building your career at {{ companyName }}? Get future opportunities sent straight to your email.",
+        "create": "Create alert"
+      },
+      "application_tracking_widget": {
+        "header": "Track your status",
+        "body": "Sign in to MyGreenhouse to keep tabs on your application, get status updates and more. ",
+        "create_account": "Sign in to MyGreenhouse"
+      },
+      "countries": {
+        "ad": "Andorra",
+        "ae": "United Arab Emirates",
+        "af": "Afghanistan",
+        "ag": "Antigua & Barbuda",
+        "ai": "Anguilla",
+        "al": "Albania",
+        "am": "Armenia",
+        "ao": "Angola",
+        "aq": "Antarctica",
+        "ar": "Argentina",
+        "as": "American Samoa",
+        "at": "Austria",
+        "au": "Australia",
+        "aw": "Aruba",
+        "ax": "\u00c5land Islands",
+        "az": "Azerbaijan",
+        "ba": "Bosnia & Herzegovina",
+        "bb": "Barbados",
+        "bd": "Bangladesh",
+        "be": "Belgium",
+        "bf": "Burkina Faso",
+        "bg": "Bulgaria",
+        "bh": "Bahrain",
+        "bi": "Burundi",
+        "bj": "Benin",
+        "bl": "St. Barth\u00e9lemy",
+        "bm": "Bermuda",
+        "bn": "Brunei",
+        "bo": "Bolivia",
+        "bq": "Caribbean Netherlands",
+        "br": "Brazil",
+        "bs": "Bahamas",
+        "bt": "Bhutan",
+        "bv": "Bouvet Island",
+        "bw": "Botswana",
+        "by": "Belarus",
+        "bz": "Belize",
+        "ca": "Canada",
+        "cc": "Cocos (Keeling) Islands",
+        "cd": "Congo - Kinshasa",
+        "cf": "Central African Republic",
+        "cg": "Congo - Brazzaville",
+        "ch": "Switzerland",
+        "ci": "C\u00f4te d\u2019Ivoire",
+        "ck": "Cook Islands",
+        "cl": "Chile",
+        "cm": "Cameroon",
+        "cn": "China",
+        "co": "Colombia",
+        "cr": "Costa Rica",
+        "cu": "Cuba",
+        "cv": "Cape Verde",
+        "cw": "Cura\u00e7ao",
+        "cx": "Christmas Island",
+        "cy": "Cyprus",
+        "cz": "Czechia",
+        "de": "Germany",
+        "dj": "Djibouti",
+        "dk": "Denmark",
+        "dm": "Dominica",
+        "do": "Dominican Republic",
+        "dz": "Algeria",
+        "ec": "Ecuador",
+        "ee": "Estonia",
+        "eg": "Egypt",
+        "eh": "Western Sahara",
+        "er": "Eritrea",
+        "es": "Spain",
+        "et": "Ethiopia",
+        "fi": "Finland",
+        "fj": "Fiji",
+        "fk": "Falkland Islands",
+        "fm": "Micronesia",
+        "fo": "Faroe Islands",
+        "fr": "France",
+        "ga": "Gabon",
+        "gb": "United Kingdom",
+        "gd": "Grenada",
+        "ge": "Georgia",
+        "gf": "French Guiana",
+        "gg": "Guernsey",
+        "gh": "Ghana",
+        "gi": "Gibraltar",
+        "gl": "Greenland",
+        "gm": "Gambia",
+        "gn": "Guinea",
+        "gp": "Guadeloupe",
+        "gq": "Equatorial Guinea",
+        "gr": "Greece",
+        "gs": "South Georgia & South Sandwich Islands",
+        "gt": "Guatemala",
+        "gu": "Guam",
+        "gw": "Guinea-Bissau",
+        "gy": "Guyana",
+        "hk": "Hong Kong SAR China",
+        "hm": "Heard & McDonald Islands",
+        "hn": "Honduras",
+        "hr": "Croatia",
+        "ht": "Haiti",
+        "hu": "Hungary",
+        "id": "Indonesia",
+        "ie": "Ireland",
+        "il": "Israel",
+        "im": "Isle of Man",
+        "in": "India",
+        "io": "British Indian Ocean Territory",
+        "iq": "Iraq",
+        "ir": "Iran",
+        "is": "Iceland",
+        "it": "Italy",
+        "je": "Jersey",
+        "jm": "Jamaica",
+        "jo": "Jordan",
+        "jp": "Japan",
+        "ke": "Kenya",
+        "kg": "Kyrgyzstan",
+        "kh": "Cambodia",
+        "ki": "Kiribati",
+        "km": "Comoros",
+        "kn": "St. Kitts & Nevis",
+        "kp": "North Korea",
+        "kr": "South Korea",
+        "kw": "Kuwait",
+        "ky": "Cayman Islands",
+        "kz": "Kazakhstan",
+        "la": "Laos",
+        "lb": "Lebanon",
+        "lc": "St. Lucia",
+        "li": "Liechtenstein",
+        "lk": "Sri Lanka",
+        "lr": "Liberia",
+        "ls": "Lesotho",
+        "lt": "Lithuania",
+        "lu": "Luxembourg",
+        "lv": "Latvia",
+        "ly": "Libya",
+        "ma": "Morocco",
+        "mc": "Monaco",
+        "md": "Moldova",
+        "me": "Montenegro",
+        "mf": "St. Martin",
+        "mg": "Madagascar",
+        "mh": "Marshall Islands",
+        "mk": "North Macedonia",
+        "ml": "Mali",
+        "mm": "Myanmar (Burma)",
+        "mn": "Mongolia",
+        "mo": "Macao SAR China",
+        "mp": "Northern Mariana Islands",
+        "mq": "Martinique",
+        "mr": "Mauritania",
+        "ms": "Montserrat",
+        "mt": "Malta",
+        "mu": "Mauritius",
+        "mv": "Maldives",
+        "mw": "Malawi",
+        "mx": "Mexico",
+        "my": "Malaysia",
+        "mz": "Mozambique",
+        "na": "Namibia",
+        "nc": "New Caledonia",
+        "ne": "Niger",
+        "nf": "Norfolk Island",
+        "ng": "Nigeria",
+        "ni": "Nicaragua",
+        "nl": "Netherlands",
+        "no": "Norway",
+        "np": "Nepal",
+        "nr": "Nauru",
+        "nu": "Niue",
+        "nz": "New Zealand",
+        "om": "Oman",
+        "pa": "Panama",
+        "pe": "Peru",
+        "pf": "French Polynesia",
+        "pg": "Papua New Guinea",
+        "ph": "Philippines",
+        "pk": "Pakistan",
+        "pl": "Poland",
+        "pm": "St. Pierre & Miquelon",
+        "pn": "Pitcairn Islands",
+        "pr": "Puerto Rico",
+        "ps": "Palestinian Territories",
+        "pt": "Portugal",
+        "pw": "Palau",
+        "py": "Paraguay",
+        "qa": "Qatar",
+        "re": "R\u00e9union",
+        "ro": "Romania",
+        "rs": "Serbia",
+        "ru": "Russia",
+        "rw": "Rwanda",
+        "sa": "Saudi Arabia",
+        "sb": "Solomon Islands",
+        "sc": "Seychelles",
+        "sd": "Sudan",
+        "se": "Sweden",
+        "sg": "Singapore",
+        "sh": "St. Helena",
+        "si": "Slovenia",
+        "sj": "Svalbard & Jan Mayen",
+        "sk": "Slovakia",
+        "sl": "Sierra Leone",
+        "sm": "San Marino",
+        "sn": "Senegal",
+        "so": "Somalia",
+        "sr": "Suriname",
+        "ss": "South Sudan",
+        "st": "S\u00e3o Tom\u00e9 & Pr\u00edncipe",
+        "sv": "El Salvador",
+        "sx": "Sint Maarten",
+        "sy": "Syria",
+        "sz": "Eswatini",
+        "tc": "Turks & Caicos Islands",
+        "td": "Chad",
+        "tf": "French Southern Territories",
+        "tg": "Togo",
+        "th": "Thailand",
+        "tj": "Tajikistan",
+        "tk": "Tokelau",
+        "tl": "Timor-Leste",
+        "tm": "Turkmenistan",
+        "tn": "Tunisia",
+        "to": "Tonga",
+        "tr": "Turkey",
+        "tt": "Trinidad & Tobago",
+        "tv": "Tuvalu",
+        "tw": "Taiwan",
+        "tz": "Tanzania",
+        "ua": "Ukraine",
+        "ug": "Uganda",
+        "um": "U.S. Outlying Islands",
+        "us": "United States",
+        "uy": "Uruguay",
+        "uz": "Uzbekistan",
+        "va": "Vatican City",
+        "vc": "St. Vincent & Grenadines",
+        "ve": "Venezuela",
+        "vg": "British Virgin Islands",
+        "vi": "U.S. Virgin Islands",
+        "vn": "Vietnam",
+        "vu": "Vanuatu",
+        "wf": "Wallis & Futuna",
+        "ws": "Samoa",
+        "ye": "Yemen",
+        "yt": "Mayotte",
+        "za": "South Africa",
+        "zm": "Zambia",
+        "zw": "Zimbabwe"
+      },
+      "seek_callback": {
+        "authentication_complete": "Seek authentication complete",
+        "profile_connected": "Your Seek profile has been connected successfully.",
+        "auto_close_message_one": "This tab will close automatically in {{count}} second, or feel free to close it manually.",
+        "auto_close_message_other": "This tab will close automatically in {{count}} seconds, or feel free to close it manually."
+      }
+    },
+    "discovered_at": "2026-01-15T16:28:05.384929Z",
+    "career_url": "https://stability.ai/careers",
+    "company_name": "Stability AI",
+    "last_verified": "2026-01-15T16:28:05.425145Z",
+    "status": "active"
+  },
+  "trusteq": {
+    "endpoint": "https://trusteq-gmbh.jobs.personio.de/search.json",
+    "method": "GET",
+    "headers": {
+      "referer": "https://trusteq-gmbh.jobs.personio.de/?language=de"
+    },
+    "payload_template": null,
+    "response_sample": [
+      {
+        "id": 2478640,
+        "name": "(Senior) Cloud Engineer / Architect (m/ w/ d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "Cloud Egineer,Cloud Architect,Cloud Developer,Software Developer",
+        "description": "<ul><li><span><span>Du\u00a0</span><span>analysierst und konzipierst L\u00f6sungen\u00a0</span><span>f\u00fcr unsere Kunden</span><span>\u00a0hinsichtlich</span><span>\u00a0moderne</span><span>r</span><span>\u00a0Cloud Architekturen.</span></span></li><li><span><span>Du entwickelst und betreibst\u00a0</span><span>passgenaue L\u00f6sungen</span><span>\u00a0sowohl in der Cloud als auch in hybriden Umgebungen und tr\u00e4gst mit deinen Kenntnissen und Ideen zur permanenten Weiterentwicklung und Verbesserung bei.</span></span></li><li><span><span>Du analysierst bestehende Applikationslandschaften und konzipierst L\u00f6sungswege f\u00fcr deren Migration in die Cloud und setzt diese auch um.</span></span></li><li><span><span>Du entwickelst gemeinsam mit dem Projektteam CI/CD-Pipelines und Microservices und sorgst durch den Einsatz von Infrastructure-</span><span>as</span><span>-Code</span><span>\u00a0(</span><span>IaC</span><span>)</span><span>\u00a0f\u00fcr Sicherheit, Stabilit\u00e4t und Compliance unserer IT-Infrastruktur.</span></span></li><li><span><span>Du \u00fcbernimmst eigenverantwortlich die Betreuung der\u00a0</span><span>Build</span><span>-,\u00a0</span><span>Staging</span><span>-,\u00a0</span><span>Deployment</span><span>- und\u00a0</span><span>Release-Prozesse</span><span>.</span></span></li><li><span><span>Du bist in der Beratung unserer Kunden sowohl remote als auch vor Ort im Einsatz.</span></span></li></ul><ul><li><span><span>Du hast ein abgeschlossenes Studium der (</span><span>Wirtschafts</span><span>)Informatik oder eine vergleichbare Qualifikation im IT-Bereich mit\u00a0</span><span>mindestens 5 Jahren</span><span>\u00a0Berufserfahrung.</span></span></li><li><span><span>D</span><span>u besitzt sehr gute Kenntnisse im Bereich</span><span>\u00a0Cloud Development &amp; Architecture mit Microservices auf Basis von\u00a0</span><span>Kubernetes</span><span>\u00a0/\u00a0</span><span>OpenShift</span><span>\u00a0sowie Networking und Storage\u00a0</span><span>im Betrieb von Applikationen</span><span>\u00a0hybrid bzw. cloud native</span><span>.</span></span></li><li><span><span>Du bist im Bereich\u00a0</span><span>DevOps</span><span>\u00a0/\u00a0</span><span>GitOps</span><span>\u00a0/ CI/CD mit</span><span>\u00a0Tools wie</span><span>\u00a0</span><span>G</span><span>ithub</span><span>,\u00a0</span><span>Gitlab</span><span>,\u00a0</span><span>CircleCI</span><span>,\u00a0</span><span>Tekton</span><span>\u00a0</span><span>etc. vertraut und Pipelines sind f\u00fcr dich nicht nur Leitungen zum Transport von \u00d6l und Gas.</span></span></li><li><span><span>Im Bereich Software Engineering bist du im Umfeld Java/</span><span>Kotlin</span><span>\u00a0sowie\u00a0</span><span>Quarkus</span><span>, Spring Boot bzw.\u00a0</span><span>Micronaut</span><span>\u00a0zu Hause und Kafka steht bei dir nicht nur im B\u00fccherregal.</span></span></li><li><span><span>Auch\u00a0</span><span>Scriptsprachen</span><span>,\u00a0</span><span>IaC</span><span>\u00a0und Automatisierungen wie zum Beispiel</span><span>\u00a0mit</span><span>\u00a0</span><span>Ansible</span><span>, Terraform,\u00a0</span><span>Linux/</span><span>Bash und Python</span><span>\u00a0</span><span>hast du</span><span>\u00a0in deinen Projekten\u00a0</span><span>erfolgreich eingesetzt</span><span>.</span></span></li><li><span><span>Mit</span><span>\u00a0hohe</span><span>m</span><span>\u00a0Qualit\u00e4tsbewusstsein und einer starken Hands-On Mentalit\u00e4t\u00a0</span><span>gehst du\u00a0</span><span>die Themen an.</span></span></li><li><span><span>Fortschritt ist dir wichtig und du hast Spa\u00df daran Technologien und Methodiken weiterzuentwickeln.</span><span>\u00a0</span><span>Digitale Trends, smarte Strategien und ihre Wechselwirkungen faszinieren dich.</span></span></li><li><span><span>Du kommunizierst klar, pr\u00e4sentierst souver\u00e4n und hast keine Scheu vor Publikum.</span><span>\u00a0</span><span>Deutsch und Englisch? Kein Problem \u2013 du f\u00fchlst dich in beiden Sprachen wohl, schriftlich wie m\u00fcndlich.</span></span></li><li><span><span>Du arbeitest gern im Team,\u00a0</span><span>denn gemeinsam erreichen wir mehr. Du \u00fcbernimmst dabei gerne Verantwortung,\u00a0</span><span>bringst Eigeninitiative mit und packst motiviert mit an.</span></span></li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur:\u00a0</strong>Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "K\u00f6ln",
+        "offices": [
+          "K\u00f6ln"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Cloud Engineering",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478606,
+        "name": "AI Developer  (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "AI,KI,Generative KI,AI Developer,IT-Consultant,KI-Algorithmen ,Machine Learning,Softwareintegration,Testautomatisierung,Agile Entwicklung,Datenmodellierung,Prototyp Entwicklung,Technische Dokumentation,Prototyping ,Phyton,Development,Programmieren,program",
+        "description": "<ul><li>Du integrierst (generative) KI-Technologien in bestehende Anwendungssoftware und entwickelst neue, innovative L\u00f6sungen mit KI-Komponenten</li><li>Du analysierst und bereitest komplexe Daten f\u00fcr spezifische (generative) KI-Use-Cases auf und tr\u00e4gst zur Verbesserung der Datenqualit\u00e4t in unseren Projekten bei</li><li>Du evaluierst und optimierst Software mit KI-Komponenten, insbesondere mit Frameworks wie LangChain, sowie durch den Einsatz von APIs wie OpenAI oder Ollama</li><li>Du bringst eigene Ideen ein, um bestehende KI-L\u00f6sungen weiterzuentwickeln und neue Ans\u00e4tze zu erarbeiten</li><li>Du wirkst aktiv und gestaltend an cloud-nativen Entwicklungsprojekten mit Fokus auf KI-gest\u00fctzte Softwarel\u00f6sungen mit</li><li>Du integrierst und nutzt KI-taugliche Datenbanksysteme (z.\u202fB. relationale, Vektor-, oder Graphdatenbanken) f\u00fcr komplexe KI-Anwendungen</li><li>Du recherchierst und bewertest neue Technologien und Methoden im Bereich (generative) KI, wie etwa Model Context Protocol, Agententechnologien oder moderne KI-Integrationsframeworks</li><li>Du arbeitest eng mit Kunden und Projektteams zusammen und pr\u00e4sentierst deine Ergebnisse verst\u00e4ndlich und professionell</li></ul><ul><li>Du hast ein abgeschlossenes Studium (vorzugsweise Master) mit KI- oder IT-Schwerpunkt und bringst erste Berufserfahrung im Bereich KI/Softwareentwicklung mit</li><li>Du verf\u00fcgst \u00fcber fundierte Kenntnisse in Python und mindestens einer weiteren modernen Programmiersprache wie JavaScript (z.\u202fB. Node.js), TypeScript, Go oder Java</li><li>Du hast praktische Erfahrung in der Integration und Nutzung von generativen KI-Technologien (z.\u202fB. OpenAI, Ollama), sowie in der Arbeit mit Frameworks wie LangChain</li><li>Du bist erfahren im Umgang mit KI-tauglichen Datenbanksystemen (relationale, Vektor-, Graphdatenbanken)</li><li>Du hast praktische Erfahrung in cloud-nativer Entwicklung (z.\u202fB. Docker, Kubernetes) und in DevOps-Praktiken (z.\u202fB. Jenkins, GitLab, GitHub)</li><li>Du kennst dich im API-Design und in der Full-Stack-Softwareentwicklung aus und hast idealerweise bereits eigene Projekte verantwortet</li><li>Du begeisterst dich f\u00fcr kundenzentrierte Anwendungsentwicklung, innovative Technologien und bringst gerne Ideen ein</li><li>Du bist teamf\u00e4hig, kommunikativ und arbeitest eigenst\u00e4ndig sowie strukturiert</li><li>Du verf\u00fcgst \u00fcber sehr gute Deutsch- und Englischkenntnisse (mind. C1 in beiden Sprachen)</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478599,
+        "name": "AI Developer Working Student  (m/w/d)",
+        "employment_type": "Praktikum/Werkstudium",
+        "seniority": "Berufserfahren",
+        "keywords": "Werkstudent KI,Working Student AI Developer,AI Developer Student,Werkstudent Artifical Intelligence,Machine Learning Werkstudent,Generative AI Werkstudent,Werkstudent Data Science ,Student Softwareentwicklung KI,AI Engineer Student,Werkstudent NLP ,Werkst",
+        "description": "<ul><li>Du unterst\u00fctzt bei der Integration von (generativen) KI-Technologien in bestehende Anwendungssoftware oder entwickelst gemeinsam mit dem Team neue, innovative L\u00f6sungen mit KI-Komponenten</li><li>Du unterst\u00fctzt bei der Analyse und Aufbereitung von Daten speziell f\u00fcr (generative) KI-Use-Cases</li><li>Du unterst\u00fctzt bei der Evaluation und Optimierung von Software mit KI-Komponenten, insbesondere mit Frameworks wie LangChain, sowie durch den Einsatz von APIs wie OpenAI oder Ollama</li><li>Du unterst\u00fctzt in Cloud-nativen Entwicklungsprojekten mit Fokus auf KI-gest\u00fctzte Softwarel\u00f6sungen</li><li>Du unterst\u00fctzt bei der Integration und Nutzung KI-tauglicher Datenbanksysteme (z.\u202fB. relationale, Vektor-, oder Graphdatenbanken) f\u00fcr KI-Anwendungen</li><li>Du recherchierst zu neuen Technologien und Methoden im Bereich (generative) KI (z.\u202fB. Model Context Protocol, Agententechnologien und moderne KI-Integrationsframeworks)</li></ul><ul><li>Du bist immatrikuliert in einem Studiengang mit KI-Inhalten und hast ein gutes Grundverst\u00e4ndnis von K\u00fcnstlicher Intelligenz</li><li>Du besitzt praktische Kenntnisse in Python und mindestens einer weiteren modernen Anwendungsprogrammiersprache wie JavaScript (z.\u202fB. Node.js), TypeScript, Go oder Java</li><li>Du begeisterst dich f\u00fcr kundenzentrierte Anwendungsentwicklung, KI und innovative Technologien</li><li>Du bist teamf\u00e4hig, kommunikativ und arbeitest eigenst\u00e4ndig sowie strukturiert</li><li>Du hast bereits erste Erfahrungen in der Cloud-nativen Entwicklung (z.\u202fB. mit Docker, Kubernetes) und DevOps-Praktiken (z.\u202fB. Jenkins, GitLab, GitHub) gesammelt</li><li>Du hast Grundkenntnisse im API-Design und der Full-Stack-Softwareentwicklung</li><li>Du verf\u00fcgst \u00fcber sehr gute Deutsch- und Englischkenntnisse (mind. C1 in beiden Sprachen)</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Arbeite remote und passe deine Arbeitszeiten flexibel an dein Studium an.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Teilzeit",
+        "category": "Werkstudenten",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478597,
+        "name": "AI Governance Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "KI,AI,K\u00fcnstliche Intelligenz,Artificial Intelligenz,EU AI Act,Governance,Consultant,IT-Consultant,Senior Consultant,Data Privacy,Richtlinienentwicklung,Prozessoptimierung",
+        "description": "<ul><li>Du analysierst bestehende Governance-Modelle und identifizierst Optimierungspotenziale im Kontext von KI</li><li>Du konzipierst und implementierst Richtlinien, Verfahren und Frameworks zur Sicherstellung einer robusten KI-Governance</li><li>Du unterst\u00fctzt Kunden im In- und Ausland bei der Etablierung von Compliance- und Ethikstandards</li><li>Du koordinierst die Umsetzung von Governance-Prozessen im Rahmen von KI-Projekten</li><li>Du pr\u00fcfst regulatorische Vorgaben und leitest Ma\u00dfnahmen zur Einhaltung gesetzlicher Bestimmungen ein</li><li>Du dokumentierst Prozesse und erstellst Berichte zur stetigen Verbesserung der Governance-Strukturen<span>\u00a0</span></li></ul><ul><li>Du brennst f\u00fcr K\u00fcnstliche Intelligenz und m\u00f6chtest die Art und Weise mitgestalten, wie AI in Unternehmen entwickelt und genutzt wird</li><li>Du verf\u00fcgst \u00fcber Kenntnisse in IT-Governance, Data Governance oder AI-Governance und hast idealerweise erste praktische Erfahrungen gesammelt</li><li>Du verstehst Unternehmensprozesse in der IT und IT-Governance und bringst Kenntnisse moderner Projektmanagementmethoden mit</li><li>Du bist ein kreativer und motivierter Teamplayer mit hoher Eigeninitiative und hast Lust darauf, innovative Ideen voranzutreiben</li><li>Du zeichnest dich durch analytisches und vision\u00e4res Denken sowie exzellente Pr\u00e4sentations- und Kommunikationsf\u00e4higkeiten aus, um komplexe Zusammenh\u00e4nge verst\u00e4ndlich und begeisternd zu vermitteln</li><li>Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik oder einer vergleichbaren Fachrichtung mit IT-Bezug</li><li>Du kommunizierst flie\u00dfend in Deutsch und Englisch und bist bereit, f\u00fcr spannende Projekte zu reisen</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478595,
+        "name": "AI Governance Senior Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "KI,AI,GenAI,K\u00fcnstliche Intelligenz,Artificial Intelligence,EU AI Act,Governance ,Consultant,Projektleitung,F\u00fchrungserfahrung ,IT-Consultant,Senior Consultant,Data Privacy,Richtlinienentwicklung,Prozessoptimierung",
+        "description": "<ul><li>Du \u00fcbernimmst die Leitung komplexer Governance-Projekte und tr\u00e4gst strategische Verantwortung f\u00fcr die Implementierung moderner KI-Governance-Frameworks</li><li>Du entwickelst ma\u00dfgeschneiderte Governance-Strategien und -L\u00f6sungen, die auf internationale Compliance- und Ethikstandards abzielen</li><li>Du ber\u00e4tst F\u00fchrungskr\u00e4fte und Entscheidungstr\u00e4ger:innen hinsichtlich regulatorischer Risiken und sicherst die Einhaltung gesetzlicher Vorgaben</li><li>Du \u00fcberwachst die Implementierung von Governance-Prozessen und initiierst kontinuierliche Verbesserungen</li><li>Du mentorst und coachst Junior Consultants und f\u00f6rderst den Wissenstransfer im Team</li><li>Du dokumentierst den Projektfortschritt, pr\u00e4sentierst Ergebnisse in Workshops und leitest strategische Diskussionen mit Stakeholdern</li></ul><ul><li>Du brennst f\u00fcr K\u00fcnstliche Intelligenz und hast einen vision\u00e4ren Blick darauf, wie AI die Gesch\u00e4ftswelt transformieren kann</li><li>Du hast zwischen 3-5 Jahren Berufserfahrung</li><li>Du besitzt fundierte Kenntnisse moderner Projektmanagementmethoden, verstehst Unternehmensprozesse in der IT und IT-Governance und bist sicher in der Konzeption, Einf\u00fchrung, Analyse und Optimierung dieser</li><li>Du bringst umfangreiche Erfahrung in AI-Governance, IT-Governance oder Data Governance mit und hast bereits komplexe Projekte erfolgreich belgeitet</li><li>Du bist ein kreativer und motivierter Teamplayer mit hoher Eigeninitiative und Leidenschaft daf\u00fcr, innovative Ideen voranzutreiben und langfristige Beziehungen zu Kund:innen aufzubauen</li><li>Du zeichnest dich durch analytisches und vision\u00e4res Denken sowie exzellente Pr\u00e4sentations- und Kommunikationsf\u00e4higkeiten aus, um komplexe technische Konzepte verst\u00e4ndlich zu vermitteln und Kund:innen souver\u00e4n zu beraten</li><li>Du hast ein exzellent abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik oder einer vergleichbaren Fachrichtung mit IT-Schwerpunkt</li><li>Du kommunizierst flie\u00dfend in Deutsch und Englisch und bist bereit, f\u00fcr spannende Projekte zu reisen</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2487007,
+        "name": "AI Security & Strategy Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "AI Security,AI Strategy,IT Management,IT Strategy,Cybersecurity",
+        "description": "<ul style=\"border:0px solid;color:rgb(31,31,31);font-family:Arial, Helvetica, sans-serif;font-size:14px;font-style:normal;font-weight:400;text-align:left;text-transform:none;background-color:rgb(255,255,255);text-decoration:none;\"><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du analysierst Gesch\u00e4ftsprozesse, Organisationsstrukturen oder technische Systeme und identifizierst Optimierungspotenziale durch den Einsatz von KI</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du ber\u00e4tst Fachabteilungen und entwickelst ma\u00dfgeschneiderte KI-Strategien, um die Effektivit\u00e4t oder Effizienz der\u00a0</span><span style=\"border:0px solid;margin:0px;\">Cybersecurity\u00a0</span><span style=\"border:0px solid;margin:0px;\">und dazugeh\u00f6render Anwendungen zu verbessern</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du unterst\u00fctzt im Projekt- oder Programmmanagement bei unseren</span><span style=\"border:0px solid;margin:0px;\">Kund:innen</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du bereitest Workshops und Schulungen vor\u00a0</span><span style=\"border:0px solid;margin:0px;\">und\u00a0</span><span style=\"border:0px solid;margin:0px;\">moderierst diese\u00a0</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du erstellst\u00a0</span><span style=\"border:0px solid;margin:0px;\">Reporting</span><span style=\"border:0px solid;margin:0px;\">unterlagen\u00a0</span><span style=\"border:0px solid;margin:0px;\">f\u00fcr Entscheidungstr\u00e4ger und Gremien, um fundierte Entscheidungen herbeizuf\u00fchren</span></span></li></ul><ul style=\"border:0px solid;color:rgb(31,31,31);font-family:Arial, Helvetica, sans-serif;font-size:14px;font-style:normal;font-weight:400;text-align:left;text-transform:none;background-color:rgb(255,255,255);text-decoration:none;\"><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik, einer technischen, naturwissenschaftlichen, mathematischen oder verwandten Disziplin</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du bringst f\u00fcr die Rolle als Consultant 1\u20132 Jahre Berufserfahrung mit</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du hast Interesse an Fragestellungen rund um die sichere Entwicklung von KI, der sicheren Nutzung von KI-Anwendungen oder dem Einsatz von KI zur Verbesserung\u00a0</span><span style=\"border:0px solid;margin:0px;\">der\u00a0</span><span style=\"border:0px solid;margin:0px;\">Cybersecurity</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du arbeitest strukturiert und pragmatisch und kannst dich schnell in neue Fragestellungen einarbeiten</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du besitzt eine offene und empathische Pers\u00f6nlichkeit</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du bist teamf\u00e4hig, motiviert, leistungsbereit, flexibel, kommunikativ und eigeninitiativ\u00a0</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du bist Generalist mit technischem Grundverst\u00e4ndnis, hast keine Ber\u00fchrungs\u00e4ngste gegen\u00fcber technischen Konzepten und baust gerne Br\u00fccken zwischen Entwicklung und Management</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du\u00a0</span><span style=\"border:0px solid;margin:0px;\">motivierst dich\u00a0</span><span style=\"border:0px solid;margin:0px;\">durch Impact und pers\u00f6nliches Wachstum aus der Arbeit im Team sowie mit und f\u00fcr unsere\u00a0</span><span style=\"border:0px solid;margin:0px;\">Kund:innen</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du bist sicher in der Arbeit mit MS Office, insbesondere mit Outlook und PowerPoint</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du bist reisebereit</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du\u00a0</span><span style=\"border:0px solid;margin:0px;\">bist verhandlungssicher in\u00a0</span><span style=\"border:0px solid;margin:0px;\">Deutsch und Englisch\u00a0</span><span style=\"border:0px solid;margin:0px;\">in Wort und Schrift</span></span></li></ul><ul style=\"border:0px solid;color:rgb(31,31,31);font-family:Arial, Helvetica, sans-serif;font-size:14px;font-style:normal;font-weight:400;text-align:left;text-transform:none;background-color:rgb(255,255,255);text-decoration:none;\"><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Unterst\u00fctzende Teamkultur:\u00a0</strong>Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Werkstudenten",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478560,
+        "name": "AI Security & Strategy Senior Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "AI Security,AI Strategy,IT Management,IT Strategy,Cybersecurity",
+        "description": "<ul><li><span><span>Du leitest komplexe Projekte\u00a0</span><span>an der Schnittstelle von KI und\u00a0</span><span>Cybersecurity\u00a0</span><span>von der Ideenfindung bis zur Umsetzung</span></span></li><li><span><span>Du\u00a0</span><span>berichtest an und\u00a0</span><span>ber\u00e4tst F\u00fchrungskr\u00e4fte strategisch bei der Integration von KI-\u00a0</span><span>und\u00a0</span><span>Cybersecurity</span><span>-</span><span>L\u00f6sungen</span></span></li><li><span><span>Du organisierst und moderierst interdisziplin\u00e4re Workshops und Schulungen</span></span></li><li><span><span>Du entwickelst und validierst Konzepte\u00a0</span><span>f\u00fcr die Verbesserung der\u00a0</span><span>Effektivit\u00e4t oder Effizienz der\u00a0</span><span>Cybersecurity\u00a0</span><span>und dazugeh\u00f6r</span><span>iger Systeme</span></span></li><li><span><span>Du unterst\u00fctzt im Projekt- oder Programmmanagement</span></span></li><li><span><span>Du \u00fcbernimmst Personalverantwortung f\u00fcr das Projektteam</span></span></li><li><span><span>Du dokumentierst den Projektfortschritt, pr\u00e4sentierst Ergebnisse und leitest strategische Diskussionen mit Stakeholdern</span></span></li><li><span><span>Du analysierst Markttrends und identifizierst neue Gesch\u00e4ftspotenziale</span></span></li></ul><ul><li><span><span>Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik, einer technischen, naturwissenschaftlichen, mathematischen oder verwandten Disziplin</span></span></li><li><span><span>Du bringst f\u00fcr die Rolle als\u00a0</span><span>Senior\u00a0</span><span>Consultant\u00a0</span><span>2</span><span>-</span><span>5 J</span><span>ahre Berufserfahrung mit</span></span></li><li><span><span>Du arbeitest souver\u00e4n\u00a0</span><span>an Fragestellungen rund um die sichere Entwicklung von KI, der sicheren Nutzung von KI-Anwendungen oder dem Einsatz von KI zur Verbesserung der\u00a0</span><span>Cybersecurity</span></span></li><li><span><span>Du besitzt fundierte Kenntnisse moderner Projektmanagementmethoden, verstehst Unternehmensprozesse in der IT und\u00a0</span><span>Cybersecurity\u00a0</span><span>und bist sicher in der Konzeption, Einf\u00fchrung, Analyse und Optimierung dieser Prozesse</span></span></li><li><span><span>Du bist ein kreativer und motivierter Teamplayer mit hoher Eigeninitiative und Leidenschaft daf\u00fcr, innovative Ideen voranzutreiben und langfristige Beziehungen zu\u00a0</span><span>Kund:innen\u00a0</span><span>aufzubauen</span></span></li><li><span><span>Du zeichnest dich durch analytisches und vision\u00e4res Denken sowie exzellente Pr\u00e4sentations- und Kommunikationsf\u00e4higkeiten aus, um komplexe technische Konzepte verst\u00e4ndlich zu vermitteln und</span><span>Kund:innen\u00a0</span><span>souver\u00e4n zu beraten</span></span></li><li><span><span>Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten und agierst souver\u00e4n im Umgang mit\u00a0</span><span>Kund:innen</span></span></li><li><span><span>Du bist teamf\u00e4hig, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</span></span></li><li><span><span>Du bist reisebereit</span></span></li><li><span><span>Du\u00a0</span><span>bist verhandlungssicher in\u00a0</span><span>Deutsch und Englisch\u00a0</span><span>in Wort und Schrift\u00a0</span></span></li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur:\u00a0</strong>Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478613,
+        "name": "AI Security Senior Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "AI Security,Cybersecurity,IT Management,IT Strategy,IT Consulting",
+        "description": "<ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du <span style=\"line-height:14.4px;color:rgb(0,0,0);\">ber\u00e4tst Kunden bei der sicheren Einf\u00fchrung und Nutzung von KI-L\u00f6sungen und unterst\u00fctzt sie dabei, Chancen und Risiken von KI realistisch zu bewerten</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du leitest und begleitest AI-Security-Projekte von der Analyse \u00fcber die Konzeption bis zur Umsetzung und fungierst als zentrale Schnittstelle zwischen Fachbereichen, IT und Security</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du unterst\u00fctzt F\u00fchrungskr\u00e4fte und Projektverantwortliche bei strategischen und konzeptionellen Fragestellungen rund um den Einsatz von KI im Kontext bestehender Security-Strukturen</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du konzipierst, organisierst und moderierst Workshops, Assessments und Schulungen zu AI Security, z. B. zur Risikobewertung von KI-Use-Cases oder zur sicheren Nutzung von\u00a0GenAI</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du entwickelst und bewertest praxisnahe Konzepte und Leitlinien zur Absicherung von KI-Anwendungen, ohne dabei tief in die technische Implementierung einzusteigen</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du unterst\u00fctzt im Projekt- und Stakeholder-Management, koordinierst beteiligte Parteien und sorgst f\u00fcr Transparenz \u00fcber Fortschritt, Risiken und Entscheidungen</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du dokumentierst Ergebnisse, bereitest Management- und Entscheidungsunterlagen auf und pr\u00e4sentierst diese adressatengerecht gegen\u00fcber unterschiedlichen Stakeholdern</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du beobachtest Markt- und Technologietrends im Bereich AI Security und leitest daraus relevante Impulse f\u00fcr Kundenprojekte und neue Beratungsans\u00e4tze ab</span></li></ul><ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du <span style=\"line-height:14.4px;color:rgb(0,0,0);\">hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik, einer technischen, naturwissenschaftlichen, mathematischen oder verwandten Disziplin</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bringst f\u00fcr die Rolle als\u00a0Senior\u00a0Consultant\u00a02\u20135\u00a0Jahre Berufserfahrung mit</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du arbeitest souver\u00e4n\u00a0an Fragestellungen rund um die sichere Entwicklung von KI, der sicheren Nutzung von KI-Anwendungen oder dem Einsatz von KI zur Verbesserung der Cybersecurity</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du besitzt fundierte Kenntnisse moderner Projektmanagementmethoden, verstehst Unternehmensprozesse in der IT und\u00a0Cybersecurity\u00a0und bist sicher in der Konzeption, Einf\u00fchrung, Analyse und Optimierung dieser</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bist ein kreativer und motivierter Teamplayer mit hoher Eigeninitiative und Leidenschaft daf\u00fcr, innovative Ideen voranzutreiben und langfristige Beziehungen zu\u00a0Kund:innen\u00a0aufzubauen</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du zeichnest dich durch analytisches und vision\u00e4res Denken sowie exzellente Pr\u00e4sentations- und Kommunikationsf\u00e4higkeiten aus, um komplexe technische Konzepte verst\u00e4ndlich zu vermitteln und\u00a0Kund:innen\u00a0souver\u00e4n zu beraten</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten und agierst souver\u00e4n im Umgang mit\u00a0Kund:innen</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bist teamf\u00e4hig, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bist reisebereit</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bist verhandlungssicher in Deutsch und Englisch in Wort und Schrift</span></li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur:\u00a0</strong>Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "",
+        "department": "Cybersecurity",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478566,
+        "name": "AI Senior Developer (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "AI,KI,Generative KI,AI Developer,IT-Consultant,KI-Algorithmen ,Machine Learning,Softwareintegration,Testautomatisierung,Agile Entwicklung,Datenmodellierung,Prototyp Entwicklung,Technische Dokumentation,Prototyping ,Phyton,Development,Programmieren,program",
+        "description": "<ul><li>Du leitest und verantwortest die Integration von (generativer) KI-Technologien in bestehende Anwendungssoftware und entwickelst gemeinsam mit dem Team innovative L\u00f6sungen mit KI-Komponenten</li><li>Du planst, steuerst und setzt anspruchsvolle Projekte im Bereich (generative) KI auf technischer Seite von der Konzeption bis zum erfolgreichen Abschluss um</li><li>Du f\u00fchrst fortgeschrittene Analysen, Aufbereitungen und Optimierungen f\u00fcr komplexe Daten und KI-Use-Cases durch und engagierst dich f\u00fcr eine stetige Verbesserung der Datenqualit\u00e4t</li><li>Du etablierst Best Practices zur Evaluation und Optimierung von Software mit KI-Komponenten, insbesondere mit Frameworks wie LangChain, Agententechnologien sowie APIs wie OpenAI oder Ollama</li><li>Du entwickelst Architekturentscheidungen f\u00fcr KI-gest\u00fctzte, Cloud-native Softwarel\u00f6sungen und bist Impulsgeber\u202ff\u00fcr innovative Ans\u00e4tze innerhalb des Teams</li><li>Du verantwortest die Integration und den Einsatz KI-tauglicher Datenbanksysteme (relationale, Vektor-, Graphdatenbanken) in komplexen Projekten</li><li>Du identifizierst, bewertest und bewirkst die Einf\u00fchrung neuer Technologien und Methoden im Bereich (generative) KI, z.\u202fB. Model Context Protocol, Agententechnologien, moderne KI-Integrationsframeworks</li><li>Du \u00fcbernimmst Verantwortung f\u00fcr die technische F\u00fchrung und Weiterentwicklung anderer Developer, f\u00f6rderst den Wissensaustausch und unterst\u00fctzt bei der Entwicklung und Schulung im Projektteam</li><li>Du bist Ansprechpartner:in f\u00fcr unsere Kunden, vertrittst technische Ergebnisse \u00fcberzeugend und partnerschaftlich und moderierst Workshops sowie Reviews</li></ul><ul><li>Du hast ein abgeschlossenes Studium (vorzugsweise Master) mit KI- oder IT-Schwerpunkt und mehrere Jahre relevante Berufserfahrung in der KI-Softwareentwicklung sowie nachweisliche Projekterfolge</li><li>Du bist Expert:in in Python und mindestens einer weiteren modernen Anwendungsprogrammiersprache wie JavaScript (Node.js), TypeScript, Go oder Java und bringst umfangreiche Erfahrung mit Generative AI-Technologien (z.\u202fB. OpenAI, Ollama) und Frameworks wie LangChain ein</li><li>Du hast tiefgehende Erfahrungen im Umgang mit Datenbanksystemen (relationale, Vektor-, Graphdatenbanken) in komplexen KI-Anwendungen</li><li>Du verf\u00fcgst \u00fcber ausgepr\u00e4gte Kenntnisse in Cloud-nativer Entwicklung (Docker, Kubernetes), DevOps (Jenkins, GitLab, GitHub) und hast idealerweise bereits Architekturverantwortung getragen</li><li>Du bist routiniert im API-Design und der Full-Stack-Softwareentwicklung und hast gr\u00f6\u00dfere Projekte eigenst\u00e4ndig oder in leitender Funktion umgesetzt</li><li>Du hast Freude an der Entwicklung kundenzentrierter, technisch anspruchsvoller Anwendungen und bringst deine Innovationskraft aktiv in die Projekte ein</li><li>Du bist ein:e kommunikative:r Teamplayer:in mit ausgepr\u00e4gtem F\u00fchrungsbewusstsein, strukturierter Arbeitsweise und einer l\u00f6sungsorientierten Einstellung</li><li>Du verf\u00fcgst \u00fcber sehr gute Deutsch- und Englischkenntnisse (mind. C1 in beiden Sprachen)</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478592,
+        "name": "AI Strategy Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "AI,KI,GenAI,Generative KI,AI Consultant,IT-Consultant,K\u00fcnstliche Intelligenz,KI-Strategie,Prozessoptimierung,Change-Management,Digital Transformation,Beratung,Datenstrategie ,Innovationsmanagement",
+        "description": "<br><ul><li>Du analysierst Gesch\u00e4ftsprozesse und identifizierst Optimierungspotenziale durch den Einsatz von KI</li><li>Du ber\u00e4tst Fachabteilungen und entwickelst ma\u00dfgeschneiderte KI-Strategien</li><li>Du erstellst Konzepte, Machbarkeitsstudien und Prototypen</li><li>Du implementierst und optimierst kontinuierlich KI-L\u00f6sungen</li><li>Du f\u00fchrst Workshops und Schulungen durch, um das KI-Verst\u00e4ndnis zu f\u00f6rdern</li><li>Du begleitest die Transformationen unserer Kund:innen im Bereich KI</li></ul><ul><li>Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik, einer technischen, naturwissenschaftlichen, mathematischen oder verwandten Disziplin</li><li>Du bringst f\u00fcr die Rolle als Consultant 1-2 Jahre Berufserfahrung mit</li><li>Du hast einschl\u00e4gige Erfahrung in der Implementierung von KI-L\u00f6sungen im betrieblichen Umfeld</li><li>Du hast umfassende Erfahrung in der Leitung von Teams und Projektorganisation</li><li>Du bist mit g\u00e4ngigen AI- und ML-Frameworks (z. B. PyTorch, TensorFlow, Langchain) sowie mit Datenbanksystemen (Vektor-/ Graphdatenbanken) vertraut und verf\u00fcgst \u00fcber ein sehr gutes Verst\u00e4ndnis f\u00fcr die technische Umsetzung</li><li>Du bist sicher in der technischen Konzeption von L\u00f6sungsans\u00e4tzen.</li><li>Du verf\u00fcgst \u00fcber sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li>Du brennst f\u00fcr K\u00fcnstliche Intelligenz und hast einen vision\u00e4ren Blick darauf, wie AI die Gesch\u00e4ftswelt transformieren kann</li><li>Du programmierst sicher in Python und bringst Erfahrung im Umgang mit Entwicklungsstandards im Unternehmenskontext mit</li><li>Du bist teamf\u00e4hig, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</li><li>Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten und agierst souver\u00e4n im Umgang mit Kund:innen</li><li>Du bist reisebereit</li><li>Du verf\u00fcgst \u00fcber sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478589,
+        "name": "AI Strategy Senior Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "KI,AI,GenAI,Generative KI,AI Senior Consultant,Strategische Beratung,Beratung,Projektleitung,F\u00fchrungserfahrung,Business Development,Markttrends,Innovationsprojekte,Kundenmanagement,Stakeholder Management",
+        "description": "<ul><li>Du leitest komplexe KI-Projekte von der Ideenfindung bis zur Umsetzung</li><li>Du ber\u00e4tst F\u00fchrungskr\u00e4fte strategisch bei der Integration von KI-L\u00f6sungen</li><li>Du organisierst und moderierst interdisziplin\u00e4re Workshops und Schulungen</li><li>Du entwickelst und validierst Konzepte sowie performante KI-Architekturen</li><li>Du \u00fcbernimmst Personalverantwortung f\u00fcr das Projektteam</li><li>Du analysierst Markttrends und identifizierst neue Gesch\u00e4ftspotenziale</li></ul><ul><li>Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik, einer technischen, naturwissenschaftlichen, mathematischen oder verwandten Disziplin</li><li>Du bringst f\u00fcr die Rolle als Consultant 2-5 Jahre Berufserfahrung mit</li><li>Du hast einschl\u00e4gige Erfahrung in der Implementierung von KI-L\u00f6sungen im betrieblichen Umfeld</li><li>Du hast umfassende Erfahrung in der Leitung von Teams und Projektorganisation</li><li>Du bist mit g\u00e4ngigen AI- und ML-Frameworks (z. B. PyTorch, TensorFlow, Langchain) sowie mit Datenbanksystemen (Vektor-/ Graphdatenbanken) vertraut und verf\u00fcgst \u00fcber ein sehr gutes Verst\u00e4ndnis f\u00fcr die technische Umsetzung</li><li>Du bist sicher in der technischen Konzeption von L\u00f6sungsans\u00e4tzen.</li><li>Du verf\u00fcgst \u00fcber sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li>Du programmierst sicher in Python und bringst Erfahrung im Umgang mit Entwicklungsstandards im Unternehmenskontext mit</li><li>Du brennst f\u00fcr K\u00fcnstliche Intelligenz und hast einen vision\u00e4ren Blick darauf, wie AI die Gesch\u00e4ftswelt transformieren kann</li><li>Du bist teamf\u00e4hig, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</li><li>Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten und agierst souver\u00e4n im Umgang mit Kund:innen</li><li>Du bist reisebereit</li><li>Du verf\u00fcgst \u00fcber sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478587,
+        "name": "AI Technical Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "KI,AI,Generative KI,AI Consultant,IT-Consultant,K\u00fcnstliche Intelligenz,Technische Beratung,KI-Integration,Machine Learning,Softwarearchitektur,IT-Infrastruktur,Technologieevaluierung,Prototyping,Agile Entwicklung,Datenmodellierung,Prototyp Entwicklung,Tec",
+        "description": "<ul><li>Du analysierst technische Kundenanforderungen und entwickelst passende KI-L\u00f6sungen</li><li>Du implementierst und integrierst KI-Systeme in bestehende IT-Landschaften</li><li>Du unterst\u00fctzt bei der Evaluierung und Auswahl von KI-Technologien und -Tools</li><li>Du konzipierst und entwickelst Prototypen, um technische Machbarkeit zu demonstrieren</li><li>Du arbeitest eng mit interdisziplin\u00e4ren Teams zusammen, um technische Konzepte umzusetzen</li><li>Du dokumentierst und verbesserst kontinuierlich technische Prozesse</li></ul><ul><li>Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik, einer technischen, naturwissenschaftlichen, mathematischen oder verwandten Disziplin</li><li>Du bringst f\u00fcr die Rolle als Consultant 1-2 Jahre Berufserfahrung mit</li><li>Du hast einschl\u00e4gige Erfahrung in der Implementierung von KI-L\u00f6sungen im betrieblichen Umfeld</li><li>Du besitzt sehr gute Kenntnisse im Umgang mit g\u00e4ngigen AI- und ML-Frameworks (z. B. PyTorch, TensorFlow, Langchain) sowie mit Datenbanksystemen (z. B. Vektordatenbanken, Graphdatenbanken)</li><li>Du programmierst sicher in Python und bringst Erfahrung im Umgang mit Entwicklungsstandards im Unternehmenskontext mit</li><li>Du verf\u00fcgst \u00fcber sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li>Du interessierst dich f\u00fcr aktuelle Themen in der KI und bleibst technisch auf dem neuesten Stand</li><li>Du bist teamf\u00e4hig, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</li><li>Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten und agierst souver\u00e4n im Umgang mit Kund:innen</li><li>Du bist reisebereit</li><li>Du verf\u00fcgst \u00fcber sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478586,
+        "name": "AI Technical Senior Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "KI,AI,GenAI,Generative KI,AI Senior Consultant,K\u00fcnstliche Intelligenz,Technische Leitung,Projektleitung,F\u00fchrungserfahrung,Architekturentwicklung,Code-Reviews,Systemoptimierung,Technologiebewertung,L\u00f6sungsarchitekur",
+        "description": "<ul><li>Du leitest technisch komplexe KI-Projekte und entwickelst innovative Architekturen</li><li>Du ber\u00e4tst unsere Kund:innen und interne Stakeholder in Bezug auf technische KI-L\u00f6sungen</li><li>Du evaluierst und integrierst neue Technologien und optimierst bestehende Systeme</li><li>Du \u00fcbernimmst Personalverantwortung f\u00fcr das Projektteam</li><li>Du erstellst detaillierte technische Konzepte und f\u00fchrst Code-Reviews durch</li><li>Du stellst die Einhaltung technischer Standards und Best Practices sicher</li></ul><ul><li>Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik, einer technischen, naturwissenschaftlichen, mathematischen oder verwandten Disziplin</li><li>Du bringst f\u00fcr die Rolle als Senior Consultant 2-5 Jahre Berufserfahrung mit</li><li>Du hast umfassende Erfahrung in der Leitung von Teams und Projektorganisation</li><li>Du hast einschl\u00e4gige Erfahrung in der Implementierung von KI-L\u00f6sungen im betrieblichen Umfeld</li><li>Du besitzt sehr gute Kenntnisse im Umgang mit g\u00e4ngigen AI- und ML-Frameworks (z. B. PyTorch, TensorFlow, Langchain) sowie mit Datenbanksystemen (z. B. Vektordatenbanken, Graphdatenbanken)</li><li>Du programmierst sicher in Python und bringst Erfahrung im Umgang mit Entwicklungsstandards im Unternehmenskontext mit</li><li>Du interessierst dich f\u00fcr aktuelle Themen in der KI und bleibst technisch auf dem neuesten Stand</li><li>Du verf\u00fcgst \u00fcber sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li>Du bist teamf\u00e4hig, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</li><li>Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten und agierst souver\u00e4n im Umgang mit Kund:innen</li><li>Du bist reisebereit</li><li>Du verf\u00fcgst \u00fcber sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Artificial Intelligence",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478631,
+        "name": "Cybersecurity & AI (Senior) Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufseinstieg",
+        "keywords": "IT Consulting,Beratung,Governance,EU AI Act,Digital Ethics,AI Regulation,Data Privacy in AI,AI Compliance,AI Risk Management ,Ethical AI,AI Policy ,Responsible AI,AI Security,GenAI,Cybersecurity,KI,AI,K\u00fcnstliche Intelligenz,IT-Sicherheit",
+        "description": "<ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du planst, \u00fcberwachst und steuerst komplexe Teilprojekte</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du \u00fcbernimmst Personalverantwortung f\u00fcr das Projektteam</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du entwickelst Strategien f\u00fcr die nachhaltige Weiterentwicklung der Sicherheits- und AI-Infrastrukturen unserer Kund:innen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du entwickelst praxisnahe L\u00f6sungen zur Pr\u00e4vention und Bek\u00e4mpfung von Cyberangriffen unter Ber\u00fccksichtigung der neusten AI-Trends</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du identifizierst neue Anwendungsfelder f\u00fcr AI im Kontext der Cybersecurity und erstellst entsprechende Use Cases</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du f\u00fchrst Proof-of-Concepts (PoCs) durch und entwickelst Prototypen zur Validierung der technischen Machbarkeit und des Mehrwerts der vorgeschlagenen AI-L\u00f6sungen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du konzeptionierst und evaluierst geeignete Technologie-Stacks (z.B. Cloud-Infrastruktur) f\u00fcr die produktive Bereitstellung von AI-Systemen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du leitest und begleitest die Transformationen im Bereich Cybersecurity und AI</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verantwortest die \u00dcbernahme von internen Weiterentwicklungsthemen zum Ausbau unseres Unternehmens</li></ul><ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik oder verwandten Disziplinen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bringst f\u00fcr die Rolle als Consultant 1-2 Jahre oder f\u00fcr die Rolle als Senior Consultant 2-5 Jahre Berufserfahrung mit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bringst ausgepr\u00e4gte F\u00fchrungsf\u00e4higkeiten und Erfahrung in der Leitung interdisziplin\u00e4rer Projektteams mit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du besitzt sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ausgepr\u00e4gte Kommunikationsf\u00e4higkeiten und die F\u00e4higkeit, komplexe technische Konzepte verst\u00e4ndlich zu vermitteln</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist teamf\u00e4hig, motiviert, leistungsbereit, flexibel und eigeninitiativ</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast Freude an der interdisziplin\u00e4ren Zusammenarbeit und Verantwortung</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du agierst souver\u00e4n im Umgang mit Kund:innen und hast Erfahrung im Aufbau und der Pflege langfristiger Beziehungen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ein sehr gutes Verst\u00e4ndnis von Unternehmensprozessen in den Bereichen IT und IT-Sicherheit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber tiefgreifende Kenntnisse der Besonderheiten von Cloud-Systemen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist teamf\u00e4hig, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten und agierst souver\u00e4n im Umgang mit Kund:innen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist reisebereit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Cybersecurity",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478620,
+        "name": "Cybersecurity & Risk Management Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "IT Consulting ,Cybersecurity,IT Management,IT Strategy",
+        "description": "<ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du ber\u00e4tst<span style=\"line-height:14.4px;color:rgb(0,0,0);font-style:normal;font-weight:400;text-align:left;text-transform:none;text-decoration:none;\">\u00a0Kunden bei der Weiterentwicklung ihrer Cybersecurity-Strategie mit Fokus auf Governance, Risk &amp; Compliance sowie regulatorische Anforderungen im europ\u00e4ischen Umfeld</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du unterst\u00fctzt bei der Einordnung, Bewertung und Umsetzung regulatorischer Initiativen wie\u00a0eIDAS 2.0, NIS2, DORA oder verwandter EU-Vorgaben im Kontext bestehender IT- und Security-Strukturen</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du begleitest Kunden bei der Analyse und Bewertung von\u00a0Cyber-\u00a0und IT-Risiken und leitest daraus praxisnahe Handlungsempfehlungen zur Risikominimierung ab</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du entwickelst und verfeinerst\u00a0Governance-, Richtlinien- und Kontrollkonzepte f\u00fcr Cybersecurity, Identit\u00e4ten und Zugriffsmanagement \u2013 abgestimmt auf Organisation, Reifegrad und Gesch\u00e4ftsmodell</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du konzipierst, organisierst und moderierst Workshops, Assessments und Management-Formate zu Themen wie\u00a0EUDI-Wallet, Identity &amp; Trust Services, Cyber-GRC oder regulatorischer Compliance</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du \u00fcbernimmst Verantwortung in IT- und Cybersecurity-Projekten, koordinierst Stakeholder aus Fachbereichen, IT, Security und Compliance und sorgst f\u00fcr eine strukturierte Umsetzung</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bereitest Analyseergebnisse, Entscheidungsgrundlagen und Roadmaps adressatengerecht f\u00fcr Management und Projektteams auf und pr\u00e4sentierst diese sicher und \u00fcberzeugend</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du beobachtest regulatorische, technologische und marktbezogene Entwicklungen im Bereich Cybersecurity und Digital Identity und leitest daraus relevante Impulse f\u00fcr Kundenprojekte und neue Beratungsans\u00e4tze ab</span></li></ul><ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;\">\u00a0</span><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik, einer technischen, naturwissenschaftlichen, mathematischen oder verwandten Disziplin\u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bringst f\u00fcr die Rolle als Consultant 1\u20132 Jahre Berufserfahrung mit\u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du hast Interesse an Fragestellungen rund um Cybersecurity, digitale Identit\u00e4ten (z. B. EUDI-Wallet), Governance, Risk &amp; Compliance sowie deren Einbettung in moderne IT- und Gesch\u00e4ftsprozesse</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du arbeitest strukturiert und pragmatisch und kannst dich schnell in neue Fragestellungen einarbeiten\u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du besitzt eine offene und empathische Pers\u00f6nlichkeit\u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;\">D</span><span style=\"line-height:14.4px;color:rgb(0,0,0);\">u bist teamf\u00e4hig, motiviert, leistungsbereit, flexibel, kommunikativ und eigeninitiativ \u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bist ein Generalist mit technischem Grundverst\u00e4ndnis, hast keine Ber\u00fchrungs\u00e4ngste gegen\u00fcber technischen Konzepten und baust gerne Br\u00fccken zwischen Entwicklung und Management\u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du motivierst dich durch Impact und pers\u00f6nliches Wachstum aus der Arbeit im Team sowie mit und f\u00fcr unsere\u00a0Kund:innen\u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bist sicher in der Arbeit mit MS Office, insbesondere mit Outlook und PowerPoint\u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bist reisebereit\u00a0</span></li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\"><span style=\"line-height:14.4px;color:rgb(0,0,0);\">Du bist verhandlungssicher in Deutsch und Englisch in Wort und Schrift\u00a0</span></li></ul><ul style=\"border:0px solid;font-family:Inter, '-apple-system', 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', 'Open Sans', 'system-ui', '-apple-system', 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';font-size:14px;font-style:normal;font-weight:400;text-transform:none;background-color:rgb(255,255,255);\"><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Unterst\u00fctzende Teamkultur:\u00a0</strong>Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Cybersecurity",
+        "subcompany": ""
+      },
+      {
+        "id": 2478630,
+        "name": "Cybersecurity (Senior) Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "Zero Trust, IT-Security,IT-Beratung,Cybersecurity,Beratung,Consulting,Security,Entra ID,Architektur",
+        "description": "<ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du ber\u00e4tst unsere Kund:innen bei der Implementierung und Optimierung von Cybersecurity-L\u00f6sungen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du analysierst komplexe Prozesse und Systeme (insb. im Bereich Identity &amp; Access Management (IAM))</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du begleitest die Transformation im Bereich Cybersecurity</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du entwickelst praxisnahe L\u00f6sungen zur Pr\u00e4vention und Bek\u00e4mpfung von Cyberangriffen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du planst, \u00fcberwachst und steuerst komplexe Teilprojekte</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du identifizierst neue Anwendungsfelder im Kontext der Cybersecurity und erarbeitest gemeinsam mit unseren Kund:innen zielf\u00fchrende L\u00f6sungen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verantwortest die \u00dcbernahme von internen Weiterentwicklungsthemen zum Ausbau unseres Unternehmens</li></ul><ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik oder verwandten Disziplinen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bringst f\u00fcr die Rolle als Consultant 1-2 Jahre oder f\u00fcr die Rolle als Senior Consultant 2-5 Jahre Berufserfahrung mit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast einschl\u00e4gige Erfahrung in der Implementierung von Cybersecurity-L\u00f6sungen im betrieblichen Umfeld</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ein sehr gutes Verst\u00e4ndnis von Unternehmensprozessen in den Bereichen IT und IT-Sicherheit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber tiefgreifende Kenntnisse der Besonderheiten von Cloud-Systemen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist teamf\u00e4hig, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten und agierst souver\u00e4n im Umgang mit Kund:innen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist reisebereit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Cybersecurity",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478626,
+        "name": "Cybersecurity Manager (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "Zero Trust, IT-Security,IT-Beratung,Cybersecurity,Beratung,Consulting,Security,Entra ID,Architektur,IT-Sicherheit",
+        "description": "<ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du \u00fcbernimmst die Verantwortung f\u00fcr Projekte, Themen und das Unternehmen im Bereich Cybersecurity</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verantwortest F\u00fchrungs- und Gestaltungsaufgaben in der Beratung, Konzeption und Umsetzung von Cybersecurity-L\u00f6sungen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du stellst sicher, dass festgelegte Meilensteine und Projektziele erreicht werden</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du \u00fcbernimmst die Stakeholder-Kommunikation und f\u00fchrst Statusmeetings durch</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist Ansprechperson f\u00fcr unsere Kund:innen, Projekt- und Teamleitung und vertrittst die Arbeitsergebnisse des Teams</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du pr\u00fcfst und ber\u00e4tst unsere Kund:innen im Bereich Cybersecurity und entwickelst neue Dienstleistungen und Themenfelder</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du analysierst komplexe Prozesse und Systeme (insb. im Bereich Identity &amp; Access Management (IAM))</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du konzeptionierst L\u00f6sungen und IT-Architekturen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du arbeitest aktiv in der Neukundengewinnung mit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du f\u00fchrst IT-Schwachstellenanalysen und Risikobewertungen von Informationssicherheitsvorf\u00e4llen durch und entwickelst interne Security-Methoden und Security-Standards weiter</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du leitest und begleitest die Transformationen im Bereich Cybersecurity</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verantwortest die \u00dcbernahme von internen Weiterentwicklungsthemen zum Ausbau unseres Unternehmens</li></ul><ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik oder verwandten Disziplinen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bringst 5-8 Jahre Berufserfahrung im Bereich Cybersecurity, inkl. der Einf\u00fchrung von Zero-Trust-Konzepten &amp; -Technologien, mit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast idealerweise bereits Erfahrungen in den Bereichen Identity &amp; Access Management, Azure AD, Zero Trust und/oder Security Architecture Design gesammelt</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du besitzt ausgepr\u00e4gte F\u00fchrungsf\u00e4higkeiten und Managementerfahrung</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ein sehr gutes Verst\u00e4ndnis von Unternehmensprozessen im Bereich Cybersecurity</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber tiefgreifende Netzwerkkenntnisse sowie Kenntnisse der Besonderheiten von Cybersecurity</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du besitzt sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast exzellente Kommunikationsf\u00e4higkeiten und die F\u00e4higkeit, komplexe technische Konzepte verst\u00e4ndlich zu vermitteln</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du begeisterst Dich f\u00fcr digitale Themen, Strategien und Prozesse</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist teamf\u00e4hig, motiviert, leistungsbereit, flexibel und eigeninitiativ</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast Freude an der interdisziplin\u00e4ren Zusammenarbeit und Verantwortung</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist reisebereit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber fundierte Projektmanagementkenntnisse sowie sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Cybersecurity",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478635,
+        "name": "Data Engineer Working Student  (m/w/d)",
+        "employment_type": "Werkstudierende",
+        "seniority": "Studierende/Mitarbeitende im Praktikum/Auszubildende",
+        "keywords": "Werkstudent ,Werkstudent Data Analyst,Data Analyst,IT-Strategy,ESG ,Werkstudent Data Engineer ,Data Engineer ,Databricks",
+        "description": "<ul><li>Du unterst\u00fctzt beim Aufbau von Datenbanken und Datenintegrationsprozessen</li><li>Du wirkst bei der Entwicklung von Datenmodellen und Datenpipelines f\u00fcr moderne Data Lakes, Data Warehouses oder Lakehouses mit</li><li>Du unterst\u00fctzt bei der Dokumentation und Strukturierung von Datenplattformen und Prozessen</li><li>Du arbeitest bei der Entwicklung interaktiver Dashboards und Reports, z.B. im Bereich Steuerungskennzahlen und ESG\u00a0</li><li>Du unterst\u00fctzt bei der Anwendung datenanalytischer Methoden und Tools im Projektkontext</li><li>Du unterst\u00fctzt die Anwender:innen bei der Nutzung und Pflege von Datenplattformen und Analytics-L\u00f6sungen</li></ul><ul><li>Immatrikulierte(r) Student:In im IT-nahen Umfeld z.B. (Wirtschafts-) Informatik, Softwareentwicklung, Data Science, Data Engineering oder verwandten Disziplinen</li><li>Gute Kenntnisse in den Programmiersprache Python und SQL\u00a0</li><li>Erste Erfahrungen in Databricks sind von Vorteil</li><li>Grundverst\u00e4ndnis vom Methoden der Datenmodellierung und von Datenintegrationsprozessen (ETL / ELT)</li><li>Erste Erfahrung in der Visualisierung &amp; Pr\u00e4sentation von Daten mit Tools wie Power BI / MS Fabric</li><li>Erste Erfahrungen im Bereich Agentic AI sind von Vorteil\u00a0</li><li>Eigenst\u00e4ndige und strukturierte Arbeitsweise Teamf\u00e4higkeit und Kommunikationsst\u00e4rke</li><li>Gute Deutsch- und Englischkenntnisse in Wort und Schrift\u00a0</li></ul><br><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Arbeite remote und passe deine Arbeitszeiten flexibel an dein Studium an</li></ul><br><br><br>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Teilzeit",
+        "category": "Werkstudenten",
+        "department": "Technology Transformation and Data",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478633,
+        "name": "Data Solutions Managing Consultant (m/ w/ d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "Beratung,IT,Startup,ESG,Data Warehouse,Lakehouse,Data Lake,ETL ,ELT ,Data Engineering ,Data Analytics,ESG-Datenanalyse,Data Bricks,Databrucks,KI-Agent",
+        "description": "Als Managing Consultant (m/w/d) mit Fokus auf <strong>Data Analytics &amp; Engineering</strong> wirst Du Teil unseres Bereichs\u00a0<strong>Data Solutions</strong>. Du unterst\u00fctzt international agierende Kunden aus der Finanz-, Versicherungs- und Energiewirtschaft dabei, datenbasierte Steuerungsmodelle zu entwickeln und fundierte Entscheidungen zu treffen. Dabei arbeitest Du an spannenden Projekten rund um die Modernisierung von Datenarchitekturen, die Implementierung moderner Cloud-Technologien und die Entwicklung skalierbarer Datenprodukte. Du \u00fcbernimmst Verantwortung in Projekten, bringst Deine Ideen aktiv ein und gestaltest den Weg unserer Kunden zu einer datengetriebenen Organisation ma\u00dfgeblich mit.<br>Du \u00fcbernimmst vielf\u00e4ltige Aufgaben:<div><div><div><div><div><div><div><div><div><div><ul><li>Du analysierst komplexe Gesch\u00e4ftsprozesse und Systemlandschaften.</li><li>Du ber\u00e4tst unsere Kunden bei der Architektur und beim Aufbau von Datenplattformen, Datenbanken und Datenintegrationsprozessen.</li><li>Du designst und implementierst selbst\u00e4ndig ETL-/ELT-Prozesse.</li><li>Du unterst\u00fctzt unsere Kunden bei der Entwicklung von Datenstrategien.</li><li>Du designst und entwickelst BI-L\u00f6sungen, Reports &amp; Dashboards sowie KI-Agenten-Systeme zur Prozessautomatisierung.</li><li>Du konzipierst und setzt Datenmodelle f\u00fcr moderne Data Lakes, Lakehouses oder klassische Data Warehouses um.</li><li>Du baust Datenpipelines in Cloud-Umgebungen (z. B. AWS, Azure, GCP) auf und optimierst sie.</li><li>Du unterst\u00fctzt Anwender dabei, Datenplattformen effizient zu nutzen und weiterzuentwickeln.</li><li>Du arbeitest eng mit interdisziplin\u00e4ren Teams aus Data Scientists, Software Engineers und Fachexpert:innen zusammen.</li></ul></div></div></div></div><div><div><div><br></div></div></div></div></div></div></div></div></div>Wir suchen Menschen, die mit Leidenschaft f\u00fcr Daten, Hands-on-Mentalit\u00e4t und Teamgeist den Unterschied machen wollen \u2013 und die Freude daran haben, unsere Kunden auf ihrem Weg zur digitalen Transformation zu begleiten. Das solltest du daf\u00fcr mitbringen:\u00a0<br><ul><li>Du hast ein gutes bis sehr gutes abgeschlossenes Studium mit IT-, MINT- oder Datenfokus und praktische Erfahrung im Aufbau moderner Datenplattformen.</li><li>Du verf\u00fcgst \u00fcber einschl\u00e4gige Berufserfahrung im Bereich Data Engineering, Business Intelligence oder Data Analytics \u2013 idealerweise im Beratungsumfeld - und hast bereits ein Team gef\u00fchrt, sowie Erfahrung im Sales gesammelt.\u00a0</li><li>Du bringst nachgewiesene Expertise in der Programmierung mit Python oder Java mit, insbesondere einen sicheren Umgang mit Spark (PySpark).</li><li>Du hast idealerweise Kenntnisse und Zertifizierungen im Bereich Databricks oder vergleichbarer moderner Datenplattformen sowie in Agentic-AI-Frameworks (z. B. LangGraph, AutoGen, CrewAI) und in der Implementierung von Multi-Agenten-Systemen in produktiven Umgebungen.</li><li>Du verf\u00fcgst \u00fcber fundierte Kenntnisse in der SQL-Entwicklung.</li><li>Du hast Erfahrung in der Datenmodellierung (3NF, Star Schema, Snowflake Schema, Data Vault).</li><li>Du bringst Erfahrung in der Visualisierung und Pr\u00e4sentation von Daten mit Tools wie Power BI oder Tableau mit.</li><li>Du hast Erfahrung im Umgang mit gro\u00dfen Datenmengen und modernen Datenplattformen (z. B. Databricks).</li><li>Du verf\u00fcgst \u00fcber Erfahrung mit Cloud-Diensten (z. B. AWS Glue, Azure Data Factory oder Google BigQuery); diese ist von Vorteil.</li><li>Du kennst dich mit Software-Engineering-Praktiken wie Versionskontrolle, CI/CD und Testautomatisierung aus.</li><li>Du arbeitest eigenst\u00e4ndig und strukturiert, bist teamf\u00e4hig und kommunikationsstark.</li><li>Du verf\u00fcgst \u00fcber sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift.</li><li>Du bringst Reisebereitschaft mit.</li></ul><br><ul style=\"border:0px solid;font-family:Inter, '-apple-system', 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', 'Open Sans', 'system-ui', '-apple-system', 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';font-size:14px;font-style:normal;font-weight:400;text-transform:none;background-color:rgb(255,255,255);\"><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Unterst\u00fctzende Teamkultur:\u00a0</strong>Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;font-weight:600;\">Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Technology Transformation and Data",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2486992,
+        "name": "Head of Tech Advisory (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "Technology Advisory,IT-Strategy,IT-Transformation,Technology Strategy Consultant,Head of Tech Advisory ",
+        "description": "<ul><li>Du entwickelst und positionierst das Technology-Advisory-Angebot strategisch im Markt und baust ein leistungsf\u00e4higes Team von 4\u20138 Consultants auf</li><li>Du \u00fcbernimmst aktive Sales- und Account-Verantwortung: von der Identifikation relevanter Entscheider:innen \u00fcber Angebotslogiken bis zum Abschluss</li><li>Du verantwortest Kundenprojekte end-to-end und agierst dabei als erste:r Ansprechpartner:in auf Management- und Vorstands-Ebene</li><li>Du entwickelst tragf\u00e4hige Technologiestrategien und IT-Zielbilder, inklusive Zielarchitekturen, Roadmaps und Investitionspriorisierung</li><li>Du steuerst komplexe Transformationsinitiativen aus technischer Perspektive und stellst Architektur-, Qualit\u00e4ts- und Entscheidungsf\u00e4higkeit sicher</li><li>Du etablierst wirksame Technology Governance (Rollen, Prozesse, Architekturprinzipien, Entscheidungsmechaniken) in anspruchsvollen IT-Organisationen</li><li>Du analysierst bestehende IT-Landschaften und leitest strukturierte Modernisierungsans\u00e4tze ab (z. B. Plattform-, Applikations- oder Cloud-Strategien)</li><li>Du moderierst Entscheidungs- und Strategieworkshops mit F\u00fchrungskr\u00e4ften und bereitest Inhalte entscheidungsreif f\u00fcr das Top-Management auf</li><li>Du entwickelst wiederverwendbare Beratungsartefakte, Standards und Methoden zur Skalierung von Qualit\u00e4t und Delivery</li><li>Du f\u00fchrst, entwickelst und coachst dein Team fachlich und pers\u00f6nlich, inklusive Staffing, Performance-Feedback und Recruiting-Beitr\u00e4gen</li></ul><ul><li>Du verf\u00fcgst \u00fcber mehrj\u00e4hrige Erfahrung (typisch: 6\u20138 Jahre) in der Management- oder Technologieberatung bzw. in einer vergleichbaren Rolle mit hoher IT-N\u00e4he</li><li>Du hast nachweislich Verantwortung f\u00fcr Kundenbeziehungen, Angebotsprozesse und kommerzielle Ergebnisse \u00fcbernommen</li><li>Du bewegst dich sicher in der Kommunikation mit Vorst\u00e4nden, Gesch\u00e4ftsf\u00fchrungen und IT-Leitungen und kannst komplexe Sachverhalte klar strukturieren</li><li>Du hast Erfahrung in der fachlichen oder disziplinarischen F\u00fchrung von Berater:innen oder Projektteams.</li><li>Du bringst tiefes Verst\u00e4ndnis f\u00fcr Technologiestrategie, IT-Zielbilder und Architekturarbeit mit \u2013 und kannst diese in umsetzbare Roadmaps \u00fcbersetzen</li><li>Du kennst die Realit\u00e4t gro\u00dfer Transformationsprogramme und kannst technische Steuerung pragmatisch und wirksam aufsetzen</li><li>Du hast Erfahrung mit Governance-Strukturen und Entscheidungsmechaniken in komplexen Organisationen</li><li>Du hast Lust auf das Arbeiten in einem wachsenden Beratungsunternehmen und bringst das Interesse und die Bereitschaft mit, \u00fcber Kundenprojekte hinaus Verantwortung f\u00fcr die Weiterentwicklung der Organisation zu \u00fcbernehmen</li><li>Du arbeitest unternehmerisch, \u00fcbernimmst Verantwortung und verbindest inhaltliche Tiefe mit Hands-on-Mentalit\u00e4t</li><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist reisebereit</li><li>Du kommunizierst sehr klar, strukturiert und adressatengerecht - schriftlich wie m\u00fcndlich</li><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul style=\"border:0px solid;\"><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li style=\"border:0px solid;margin:0px;\"><strong style=\"border:0px solid;margin:0px;\">Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "",
+        "department": "Technology Transformation and Data",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478627,
+        "name": "Identity Access Management Senior Consultant (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "IAM,Identity Access Management,IT Beratung,Consulting,Entra ID Architekt,AD,Zugriffsmanagement,IAM Architekt",
+        "description": "<ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du planst, \u00fcberwachst und steuerst komplexe Teilprojekte</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du \u00fcbernimmst Personalverantwortung f\u00fcr das Projektteam</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du konzipierst und gestaltest ma\u00dfgeschneiderte L\u00f6sungen f\u00fcr unsere Kund:innen und setzt diese gemeinsam mit unseren Kund:innen nachhaltig um</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du entwickelst die IAM-Architektur und -Strategie unserer Kund:innen weiter</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du implementierst neue Technologien sowie Tools zur Verbesserung der Effizienz und Effektivit\u00e4t des IAM-Systems</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du f\u00fchrst Tests und Audits zur Bewertung der Performance durch</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du stellst sicher, dass die Compliance- und Datenschutzvorschriften eingehalten werden</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du dokumentierst die IAM-Architektur und -Prozesse</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bindest Anwendungssysteme und Cloud Services durch IAM an</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du analysierst komplexe Prozesse und Systeme (insbesondere im Bereich IAM)</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du konzeptionierst L\u00f6sungen und IT-Architekturen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du \u00fcbernimmst Verantwortung f\u00fcr die Leitung und Begleitung der Transformation komplexer Systemarchitekturen im Bereich IT</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist verantwortlich f\u00fcr die Stakeholder-Kommunikation und Durchf\u00fchrung von Statusmeetings</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verantwortest die \u00dcbernahme von internen Weiterentwicklungsthemen zum Ausbau unseres Unternehmens Stakeholder-Kommunikation und Durchf\u00fchrung von Statusmeetings</li></ul><ul><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ein gutes bis sehr gutes abgeschlossenes (Master-)Studium in Wirtschaftswissenschaften, (Wirtschafts-)Informatik oder verwandten Disziplinen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bringst 2-5 Jahre Berufserfahrung in der Entwicklung und Optimierung von IAM-Systemen mit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast Erfahrungen in den Bereichen IT-Sicherheit und IT-Beratung gesammelt</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast Fachkenntnisse in IAM-Technologien und -Protokollen wie SSO, SAML und OAuth</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast Erfahrung in der Integration und Verwaltung von IAM-Systemen insbesondere Entra ID oder One Identity</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist vertraut mit Compliance- und Datenschutzvorschriften wie GDPR</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ein sehr gutes Verst\u00e4ndnis von Unternehmensprozessen und -projekten in den Bereichen IT und IT-Sicherheit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber sehr gute Kenntnisse moderner Projektmanagementmethoden und praktische Erfahrungen in der Durchf\u00fchrung von komplexen Projekten</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bringst ausgepr\u00e4gte F\u00fchrungsf\u00e4higkeiten und Erfahrung in der Leitung interdisziplin\u00e4rer Projektteams mit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du besitzt sehr starke analytische F\u00e4higkeiten und Probleml\u00f6sungskompetenz</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast ausgepr\u00e4gte Kommunikationsf\u00e4higkeiten und die F\u00e4higkeit, komplexe technische Konzepte verst\u00e4ndlich zu vermitteln</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du begeisterst Dich f\u00fcr digitale Themen, Strategien und deren Wechselwirkungen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist teamf\u00e4hig, motiviert, leistungsbereit, flexibel, kommunikativ und eigeninitiativ</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du hast Freude an der interdisziplin\u00e4ren Zusammenarbeit und Verantwortung</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du agierst souver\u00e4n im Umgang mit Kund:innen und hast Erfahrung im Aufbau und der Pflege langfristiger Beziehungen</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du bist reisebereit</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du besitzt ausgepr\u00e4gte Pr\u00e4sentations- und Moderationsf\u00e4higkeiten sowie sehr gute MS-Office-Kenntnisse</li><li style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du verf\u00fcgst \u00fcber sehr gute Deutschkenntnisse und sichere Englischkenntnisse in Wort und Schrift</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul><div><div><div><div><div><div><br></div></div></div></div><div><div><div><div><br></div></div></div></div></div></div>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Cybersecurity",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478611,
+        "name": "Initiativbewerbung (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "Initiativbewerbung,IT Beratung,IT Consulting ,Consultant ",
+        "description": "<ul><li>Bringe deine individuellen St\u00e4rken und Interessen in unser wachsendes Team ein</li><li>Arbeite an spannenden Projekten mit f\u00fchrenden Unternehmen</li><li>Gestalte aktiv innovative L\u00f6sungen und strategische Konzepte f\u00fcr unsere Kunden</li><li>Wachse mit uns pers\u00f6nlich und fachlich in einer dynamischen Beratungsumgebung</li><li>Unterst\u00fctze uns in einem unserer Kernbereiche:\u00a0<ul><li>IT-Strategy &amp; Delivery</li><li>Cybersecurity</li><li>Data Analytics &amp; AI</li><li>Cloud-L\u00f6sungen</li><li>Sustainability &amp; ESG</li></ul></li></ul><ul><li>Du bist motiviert, m\u00f6chtest etwas bewegen und unser Team aktiv bereichern</li><li>Du hast eine abgeschlossene Ausbildung oder ein Studium in einem relevanten Fachbereich</li><li>Idealerweise bringst du erste praktische Erfahrungen in der Beratungsbranche mit</li><li>Du verf\u00fcgst \u00fcber Deutschkenntnisse auf Muttersprachlerniveau</li><li>Verhandlungssichere Englischkenntnisse sind von Vorteil</li><li>Du arbeitest strukturiert, eigenverantwortlich und bist teamorientiert</li><li>Du hast Freude daran, dich in neue Themenfelder einzuarbeiten und Verantwortung zu \u00fcbernehmen</li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen,K\u00f6ln",
+        "offices": [
+          "M\u00fcnchen",
+          "K\u00f6ln"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Management",
+        "subcompany": "TRUSTEQ GmbH"
+      },
+      {
+        "id": 2478647,
+        "name": "People Operations Manager (m/w/d)",
+        "employment_type": "Festanstellung",
+        "seniority": "Berufserfahren",
+        "keywords": "HR ,People Business Development,Employee Lifecycle,HR Business People,People Operation Prozesse,People & Culture,People Operations,HR Business Development,Performance Management,HR Manager",
+        "description": "<ul style=\"border:0px solid;color:rgb(31,31,31);font-family:Arial, Helvetica, sans-serif;font-size:14px;font-style:normal;font-weight:400;text-align:left;text-transform:none;background-color:rgb(255,255,255);text-decoration:none;\"><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du\u202fverantwortest die internen People-Operations-Prozesse und bist Ansprechpartner f\u00fcr unsere Mitarbeitenden und \u00fcbernimmst die interne HR-Kommunikation</li><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du\u202foptimierst unsere gesamte Employee Experience kontinuierlich weiter und unterst\u00fctzt unsere Mitarbeitenden bei ihren Entwicklungen</li><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du\u202fgestaltest nicht nur People-Prozesse, sondern baust den People-Bereich strategisch in Zusammenarbeit mit dem Management aus</li><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du\u202fidentifizierst aktuelle Trends im People-Bereich und leitest daraus konkrete Ma\u00dfnahmen ab</li><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du\u202fkonzipierst und steuerst People-Projekte zur Organisationsentwicklung</li><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du\u202fprofessionalisierst Strukturen, Tools und Prozesse im HR- und Organisationsumfeld</li><li style=\"border:0px solid;margin:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;\">Du\u202fgestaltest das Unternehmenswachstum aktiv mit und treibst Business Development im Bereich HR voran</li></ul><ul style=\"border:0px solid;color:rgb(31,31,31);font-family:Arial, Helvetica, sans-serif;font-size:14px;font-style:normal;font-weight:400;text-align:left;text-transform:none;background-color:rgb(255,255,255);text-decoration:none;\"><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du hast ein a</span><span style=\"border:0px solid;margin:0px;\">bgeschlossenes Studium im Bereich Wirtschaftswissenschaften, BWL, Psychologie, HR-Management, Soziologie oder vergleichbar</span><span style=\"border:0px solid;margin:0px;\">e Qualifikationen\u00a0</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du hast m</span><span style=\"border:0px solid;margin:0px;\">ehrj\u00e4hrige (5-7 Jahre) relevante Berufserfahrung im HR-Umfeld,\u00a0</span><span style=\"border:0px solid;margin:0px;\">Employee\u00a0</span><span style=\"border:0px solid;margin:0px;\">Experience oder People\u00a0</span><span style=\"border:0px solid;margin:0px;\">Operations</span><span style=\"border:0px solid;margin:0px;\">, pr\u00e4feriert in schnell wachsenden Unternehmen</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du m\u00f6chtest Vollzeit oder Teilzeit bei uns arbeiten</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du hast ein h</span><span style=\"border:0px solid;margin:0px;\">ohes Ma\u00df an Eigenverantwortung, Innovationsgeist und Freude am Gestalten neuer Prozesse</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du bist teamf\u00e4hig, kommunikativ und arbeitest eigenst\u00e4ndig sowie strukturiert\u00a0</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du hast eine\u00a0</span><span style=\"border:0px solid;margin:0px;\">Hands-on-Mentalit\u00e4t,</span><span style=\"border:0px solid;margin:0px;\">eine\u00a0</span><span style=\"border:0px solid;margin:0px;\">dynamische Arbeitsweise und Lust auf Wachstum &amp; Ver\u00e4nderung</span></span></li><li style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\"><span style=\"border:0px solid;margin:0px;\">Du verf\u00fcgst \u00fcber sehr gute Deutsch</span><span style=\"border:0px solid;margin:0px;\">-</span><span style=\"border:0px solid;margin:0px;\">und Englischkenntnisse (mind. C1 in beiden Sprachen)</span></span></li></ul><ul><li><strong>Unterst\u00fctzende Teamkultur</strong>: Teamzusammenhalt ist uns wichtig - wir unterst\u00fctzen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelm\u00e4\u00dfige Afterworks und sorgt f\u00fcr einen Austausch au\u00dferhalb des Arbeitsplatzes.</li><li><strong>Schnelle Verantwortungs\u00fcbernahme:\u00a0</strong>Du \u00fcbernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!</li><li><strong>Klare Karrierem\u00f6glichkeiten:\u00a0</strong>Bei uns findest du ein Umfeld, das dich f\u00f6rdert, fordert und weiterbringt. Wir haben klar definierte Karrierem\u00f6glichkeiten und ein transparentes Anforderungsmanagement and jedes Level.</li><li><strong>Kreativer Arbeitsplatz:\u00a0</strong>Wir geben dir die Freiheit und Zeit, kreative L\u00f6sungen zu entwickeln und bieten dir daf\u00fcr die beste und modernste Hardware an (Apple oder Windows).</li><li><strong>Mitarbeiterbenefits:\u00a0</strong>Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen f\u00fcr dein Wohlbefinden. Au\u00dferdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebtr\u00e4germaschine und einen immer gef\u00fcllten Soft-Getr\u00e4nkek\u00fchlschrank.</li><li><strong>Attraktive Urlaubsregelung:\u00a0</strong>Du genie\u00dft 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.</li></ul>",
+        "office": "M\u00fcnchen",
+        "offices": [
+          "M\u00fcnchen"
+        ],
+        "schedule": "Vollzeit",
+        "category": "Festangestellte",
+        "department": "Management",
+        "subcompany": "TRUSTEQ GmbH"
+      }
+    ],
+    "discovered_at": "2026-01-15T16:28:27.836917Z",
+    "career_url": "https://trusteq-gmbh.jobs.personio.de/?language=de",
+    "company_name": "Trusteq",
+    "last_verified": "2026-01-15T16:28:27.871239Z",
+    "status": "active"
+  },
+  "avelios": {
+    "endpoint": "https://cdn-cookieyes.com/client_data/9f2b72e124f918ae805446e7/config/JJNzy-Nv.json",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.avelios.com/careers"
+    },
+    "payload_template": null,
+    "response_sample": {
+      "reloadOnAccept": true,
+      "dataShortCodes": [
+        {
+          "key": "cky_show_desc",
+          "content": {
+            "button": "<button class=\"cky-show-desc-btn\" data-cky-tag=\"show-desc-button\" aria-label=\"[cky_showmore_text]\">[cky_showmore_text]</button>"
+          },
+          "uiTag": "show-desc-button",
+          "type": "data",
+          "customTag": "",
+          "attributes": {}
+        },
+        {
+          "key": "cky_hide_desc",
+          "content": {
+            "button": "<button class=\"cky-show-desc-btn\" data-cky-tag=\"hide-desc-button\" aria-label=\"[cky_showless_text]\">[cky_showless_text]</button>"
+          },
+          "uiTag": "hide-desc-button",
+          "type": "data",
+          "customTag": "",
+          "attributes": {}
+        },
+        {
+          "key": "cky_readmore",
+          "content": {
+            "link": "<a href=\"#\" class=\"cky-policy\" aria-label=\"[cky_readmore_text]\" target=\"_blank\" rel=\"noopener\">[cky_readmore_text]</a>",
+            "button": "<button class=\"cky-policy\" aria-label=\"[cky_readmore_text]\">[cky_readmore_text]</button>"
+          },
+          "uiTag": "readmore-button",
+          "type": "data",
+          "customTag": "",
+          "attributes": {
+            "data-cky-tag": "readmore-button"
+          },
+          "processedHTML": ""
+        },
+        {
+          "key": "cky_category_toggle_label",
+          "content": {
+            "container": "[cky_{{status}}_category_label] [cky_preference_{{category_slug}}_title]"
+          },
+          "uiTag": "detail-category-toggle",
+          "type": "data",
+          "customTag": "",
+          "attributes": {}
+        },
+        {
+          "key": "cky_optout_toggle_label",
+          "content": {
+            "container": "[cky_{{status}}_optout_label] [cky_optout_option_title]"
+          },
+          "uiTag": "optout-option-toggle",
+          "type": "data",
+          "customTag": "",
+          "attributes": {}
+        },
+        {
+          "key": "cky_dma_readmore",
+          "content": {
+            "link": "<a href=\"#\" class=\"cky-policy\" aria-label=\"[cky_dma_readmore_text]\" target=\"_blank\" rel=\"noopener\">[cky_dma_readmore_text]</a>",
+            "button": "<button class=\"cky-policy\" aria-label=\"[cky_dma_readmore_text]\">[cky_dma_readmore_text]</button>"
+          },
+          "uiTag": "detail-dma-button",
+          "type": "data",
+          "customTag": "",
+          "attributes": {
+            "data-cky-tag": "detail-dma-button"
+          },
+          "processedHTML": ""
+        },
+        {
+          "key": "cky_optout_show_desc",
+          "content": {
+            "button": "<button class=\"cky-show-desc-btn\" data-cky-tag=\"optout-show-desc-button\" aria-label=\"[cky_showmore_text]\">[cky_showmore_text]</button>"
+          },
+          "uiTag": "optout-show-desc-button",
+          "type": "data",
+          "customTag": "",
+          "attributes": {}
+        },
+        {
+          "key": "cky_optout_hide_desc",
+          "content": {
+            "button": "<button class=\"cky-show-desc-btn\" data-cky-tag=\"optout-hide-desc-button\" aria-label=\"[cky_showless_text]\">[cky_showless_text]</button>"
+          },
+          "uiTag": "optout-hide-desc-button",
+          "type": "data",
+          "customTag": "",
+          "attributes": {}
+        }
+      ],
+      "iabDataShortCodes": [],
+      "activeLaw": "gdpr",
+      "showAuditTable": true,
+      "showToggler": true,
+      "googleACMEnabled": false,
+      "readMore": {
+        "status": false,
+        "styles": {
+          "color": "#1863dc",
+          "border-color": "transparent",
+          "background-color": "transparent"
+        },
+        "type": "link"
+      },
+      "togglerSwitch": {
+        "status": true,
+        "styles": {
+          "activeColor": "#1a518a",
+          "inactiveColor": "#d0d5d2"
+        }
+      },
+      "togglerIABSwitch": {
+        "status": false,
+        "styles": {
+          "activeColor": "#1a518a",
+          "inactiveColor": "#d0d5d2"
+        }
+      },
+      "ccpaSwitch": {
+        "status": false,
+        "styles": {
+          "activeColor": "#1863dc",
+          "inactiveColor": "#FFFFFF"
+        }
+      },
+      "placeHolder": {
+        "status": true,
+        "styles": {
+          "border-color": "#000000",
+          "background-color": "#000000",
+          "color": "#ffffff"
+        }
+      },
+      "html": "<div class=\"cky-hide cky-overlay\"></div><div class=\"cky-btn-revisit-wrapper cky-revisit-hide cky-revisit-bottom-left\" data-cky-tag=\"revisit-consent\" data-tooltip=\"[cky_revisit_title]\" style=\"background-color: #1a518a;\"><button aria-label=\"[cky_revisit_title]\" class=\"cky-btn-revisit\"><img alt=\"Revisit consent button\" src=\"https://cdn-cookieyes.com/assets/images/revisit.svg\"></button></div><div class=\"cky-hide cky-consent-container cky-banner-bottom\" aria-label=\"[cky_notice_title]\" role=\"region\" tabindex=\"-1\"><div class=\"cky-consent-bar\" data-cky-tag=\"notice\" style=\"border-color: #f4f4f4; background-color: #FFFFFF;\"><div class=\"cky-notice\"><p class=\"cky-title\" aria-level=\"1\" data-cky-tag=\"title\" role=\"heading\" style=\"color: #212121;\">[cky_notice_title]</p><div class=\"cky-notice-group\"><div class=\"cky-notice-des\" data-cky-tag=\"description\" style=\"color: #212121;\">[cky_notice_description]</div><div class=\"cky-notice-btn-wrapper\" data-cky-tag=\"notice-buttons\"><button class=\"cky-btn cky-btn-customize\" aria-label=\"[cky_settings_text]\" data-cky-tag=\"settings-button\" style=\"color: #1a518a; border-color: #1a518a; background-color: transparent;\">[cky_settings_text]</button> <button class=\"cky-btn cky-btn-reject\" aria-label=\"[cky_reject_text]\" data-cky-tag=\"reject-button\" style=\"color: #1a518a; border-color: #1a518a; background-color: transparent;\">[cky_reject_text]</button> <button class=\"cky-btn cky-btn-accept\" aria-label=\"[cky_accept_text]\" data-cky-tag=\"accept-button\" style=\"color: #FFFFFF; border-color: #1a518a; background-color: #1a518a;\">[cky_accept_text]</button> </div></div></div></div></div><div class=\"cky-modal\" tabindex=\"-1\"><div class=\"cky-preference-center\" data-cky-tag=\"detail\" aria-label=\"[cky_preference_title]\" aria-modal=\"true\" role=\"dialog\" style=\"color: #212121; border-color: #F4F4F4; background-color: #FFFFFF;\"><div class=\"cky-preference-header\"><span class=\"cky-preference-title\" aria-level=\"1\" data-cky-tag=\"detail-title\" role=\"heading\" style=\"color: #212121;\">[cky_preference_title]</span> <button aria-label=\"[cky_preference_close_label]\" class=\"cky-btn-close\" data-cky-tag=\"detail-close\"><img alt=\"Close\" src=\"https://cdn-cookieyes.com/assets/images/close.svg\"></button></div><div class=\"cky-preference-body-wrapper\"><div class=\"cky-preference-content-wrapper\" data-cky-tag=\"detail-description\" style=\"color: #212121;\">[cky_preference_description]</div><div class=\"cky-horizontal-separator\"></div><div class=\"cky-accordion-wrapper\" data-cky-tag=\"detail-categories\"><div class=\"cky-accordion\" id=\"ckyDetailCategorynecessary\"><div class=\"cky-accordion-item\"><div class=\"cky-accordion-chevron\"><i class=\"cky-chevron-right\"></i></div><div class=\"cky-accordion-header-wrapper\"><div class=\"cky-accordion-header\"><button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategorynecessaryBody\" aria-label=\"[cky_preference_necessary_title]\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\">[cky_preference_necessary_title]</button><span class=\"cky-always-active\" data-cky-tag=\"always-active\">[cky_preference_always_enabled]</span></div><div class=\"cky-accordion-header-des\" data-cky-tag=\"detail-category-description\" style=\"color: #212121;\">[cky_preference_necessary_description]</div></div></div><div class=\"cky-accordion-body\" id=\"ckyDetailCategorynecessaryBody\"><div class=\"cky-audit-table\" data-cky-tag=\"audit-table\" style=\"color: #212121; border-color: #ebebeb; background-color: #f4f4f4;\"></div></div></div><div class=\"cky-accordion\" id=\"ckyDetailCategoryfunctional\"><div class=\"cky-accordion-item\"><div class=\"cky-accordion-chevron\"><i class=\"cky-chevron-right\"></i></div><div class=\"cky-accordion-header-wrapper\"><div class=\"cky-accordion-header\"><button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategoryfunctionalBody\" aria-label=\"[cky_preference_functional_title]\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\">[cky_preference_functional_title]</button></div><div class=\"cky-accordion-header-des\" data-cky-tag=\"detail-category-description\" style=\"color: #212121;\">[cky_preference_functional_description]</div></div></div><div class=\"cky-accordion-body\" id=\"ckyDetailCategoryfunctionalBody\"><div class=\"cky-audit-table\" data-cky-tag=\"audit-table\" style=\"color: #212121; border-color: #ebebeb; background-color: #f4f4f4;\"></div></div></div><div class=\"cky-accordion\" id=\"ckyDetailCategoryanalytics\"><div class=\"cky-accordion-item\"><div class=\"cky-accordion-chevron\"><i class=\"cky-chevron-right\"></i></div><div class=\"cky-accordion-header-wrapper\"><div class=\"cky-accordion-header\"><button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategoryanalyticsBody\" aria-label=\"[cky_preference_analytics_title]\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\">[cky_preference_analytics_title]</button><div class=\"cky-switch\" data-cky-tag=\"detail-category-toggle\"><input type=\"checkbox\" id=\"ckySwitchanalytics\" aria-label=\"[cky_category_toggle_label]\" autocomplete=\"off\"></div></div><div class=\"cky-accordion-header-des\" data-cky-tag=\"detail-category-description\" style=\"color: #212121;\">[cky_preference_analytics_description]</div></div></div><div class=\"cky-accordion-body\" id=\"ckyDetailCategoryanalyticsBody\"><div class=\"cky-audit-table\" data-cky-tag=\"audit-table\" style=\"color: #212121; border-color: #ebebeb; background-color: #f4f4f4;\"></div></div></div><div class=\"cky-accordion\" id=\"ckyDetailCategoryperformance\"><div class=\"cky-accordion-item\"><div class=\"cky-accordion-chevron\"><i class=\"cky-chevron-right\"></i></div><div class=\"cky-accordion-header-wrapper\"><div class=\"cky-accordion-header\"><button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategoryperformanceBody\" aria-label=\"[cky_preference_performance_title]\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\">[cky_preference_performance_title]</button><div class=\"cky-switch\" data-cky-tag=\"detail-category-toggle\"><input type=\"checkbox\" id=\"ckySwitchperformance\" aria-label=\"[cky_category_toggle_label]\" autocomplete=\"off\"></div></div><div class=\"cky-accordion-header-des\" data-cky-tag=\"detail-category-description\" style=\"color: #212121;\">[cky_preference_performance_description]</div></div></div><div class=\"cky-accordion-body\" id=\"ckyDetailCategoryperformanceBody\"><div class=\"cky-audit-table\" data-cky-tag=\"audit-table\" style=\"color: #212121; border-color: #ebebeb; background-color: #f4f4f4;\"></div></div></div><div class=\"cky-accordion\" id=\"ckyDetailCategoryadvertisement\"><div class=\"cky-accordion-item\"><div class=\"cky-accordion-chevron\"><i class=\"cky-chevron-right\"></i></div><div class=\"cky-accordion-header-wrapper\"><div class=\"cky-accordion-header\"><button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategoryadvertisementBody\" aria-label=\"[cky_preference_advertisement_title]\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\">[cky_preference_advertisement_title]</button></div><div class=\"cky-accordion-header-des\" data-cky-tag=\"detail-category-description\" style=\"color: #212121;\">[cky_preference_advertisement_description]</div></div></div><div class=\"cky-accordion-body\" id=\"ckyDetailCategoryadvertisementBody\"><div class=\"cky-audit-table\" data-cky-tag=\"audit-table\" style=\"color: #212121; border-color: #ebebeb; background-color: #f4f4f4;\"></div></div></div></div></div><div class=\"cky-footer-wrapper\"><span class=\"cky-footer-shadow\" style=\"background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);\"></span><div class=\"cky-prefrence-btn-wrapper\" data-cky-tag=\"detail-buttons\"><button aria-label=\"[cky_preference_reject_text]\" class=\"cky-btn cky-btn-reject\" data-cky-tag=\"detail-reject-button\" style=\"color: #1a518a; border-color: #1a518a; background-color: transparent;\">[cky_preference_reject_text]</button> <button aria-label=\"[cky_preference_save_text]\" class=\"cky-btn cky-btn-preferences\" data-cky-tag=\"detail-save-button\" style=\"color: #1a518a; border-color: #1a518a; background-color: transparent;\">[cky_preference_save_text]</button> <button aria-label=\"[cky_preference_accept_text]\" class=\"cky-btn cky-btn-accept\" data-cky-tag=\"detail-accept-button\" style=\"color: #ffffff; border-color: #1a518a; background-color: #1a518a;\">[cky_preference_accept_text]</button></div><div data-cky-tag=\"detail-powered-by\" style=\"padding: 8px 24px; font-size: 12px; font-weight: 400; line-height: 20px; text-align: right; border-radius: 0 0 6px 6px; direction: ltr; display: flex; justify-content: flex-end; align-items: center; color: #293C5B; background-color: #EDEDED;\">Powered by <a href=\"https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&amp;utm_source=cookie-banner&amp;utm_medium=powered-by-cookieyes\" rel=\"noopener\" style=\"margin-left:5px;line-height:0\" target=\"_blank\"><img alt=\"Cookieyes logo\" src=\"https://cdn-cookieyes.com/assets/images/poweredbtcky.svg\" style=\"width:78px;height:13px;margin:0\"></a></div></div></div></div>",
+      "css": "<style id=\"cky-style\">.cky-overlay{background:#000;opacity:.4;position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999999}.cky-hide{display:none}.cky-btn-revisit-wrapper{display:flex;align-items:center;justify-content:center;background:#0056a7;width:45px;height:45px;border-radius:50%;position:fixed;z-index:999999;cursor:pointer}.cky-revisit-bottom-left{bottom:15px;left:15px}.cky-revisit-bottom-right{bottom:15px;right:15px}.cky-btn-revisit-wrapper .cky-btn-revisit{display:flex;align-items:center;justify-content:center;background:none;border:none;cursor:pointer;position:relative;margin:0;padding:0}.cky-btn-revisit-wrapper .cky-btn-revisit img{max-width:fit-content;margin:0;height:30px;width:30px}.cky-revisit-bottom-left:hover::before{content:attr(data-tooltip);position:absolute;background:#4e4b66;color:#fff;left:calc(100% + 7px);font-size:12px;line-height:16px;width:max-content;padding:4px 8px;border-radius:4px}.cky-revisit-bottom-left:hover::after{position:absolute;content:\"\";border:5px solid #fff0;left:calc(100% + 2px);border-left-width:0;border-right-color:#4e4b66}.cky-revisit-bottom-right:hover::before{content:attr(data-tooltip);position:absolute;background:#4e4b66;color:#fff;right:calc(100% + 7px);font-size:12px;line-height:16px;width:max-content;padding:4px 8px;border-radius:4px}.cky-revisit-bottom-right:hover::after{position:absolute;content:\"\";border:5px solid #fff0;right:calc(100% + 2px);border-right-width:0;border-left-color:#4e4b66}.cky-revisit-hide{display:none}.cky-consent-container{position:fixed;width:100%;box-sizing:border-box;z-index:9999999}.cky-consent-container .cky-consent-bar{background:#fff;border:1px solid;padding:16.5px 24px;box-shadow:0 -1px 10px 0 #acabab4d}.cky-banner-bottom{bottom:0;left:0}.cky-banner-top{top:0;left:0}.cky-custom-brand-logo-wrapper .cky-custom-brand-logo{width:100px;height:auto;margin:0 0 12px 0}.cky-notice .cky-title{color:#212121;font-weight:700;font-size:18px;line-height:24px;margin:0 0 12px 0;overflow-wrap:break-word}.cky-notice-group{display:flex;justify-content:space-between;align-items:center;font-size:14px;line-height:24px;font-weight:400}.cky-notice-des *,.cky-preference-content-wrapper *,.cky-dma-content-wrapper *,.cky-accordion-header-des *,.cky-gpc-wrapper .cky-gpc-desc *{font-size:14px}.cky-notice-des{color:#212121;font-size:14px;line-height:24px;font-weight:400}.cky-notice-des img{min-height:25px;min-width:25px}.cky-consent-bar .cky-notice-des p,.cky-gpc-wrapper .cky-gpc-desc p,.cky-preference-body-wrapper .cky-preference-content-wrapper p,.cky-accordion-header-wrapper .cky-accordion-header-des p,.cky-cookie-des-table li div:last-child p{color:inherit;margin-top:0;word-break:break-word}.cky-notice-des P:last-child,.cky-preference-content-wrapper p:last-child,.cky-cookie-des-table li div:last-child p:last-child,.cky-gpc-wrapper .cky-gpc-desc p:last-child{margin-bottom:0}.cky-notice-des a.cky-policy,.cky-notice-des button.cky-policy,.cky-notice-des a.cky-link-default,.cky-dma-content-wrapper a.cky-policy,.cky-dma-content-wrapper button.cky-policy{font-size:14px;color:#1863dc;white-space:nowrap;cursor:pointer;background:#fff0}.cky-notice-des a.cky-policy,.cky-notice-des button.cky-policy,.cky-dma-content-wrapper a.cky-policy,.cky-dma-content-wrapper button.cky-policy{text-decoration:underline;border:1px solid}.cky-notice-des a.cky-link-default{text-decoration:underline}.cky-notice-des button.cky-policy,.cky-dma-content-wrapper button.cky-policy{padding:0}.cky-notice-des a.cky-policy:focus-visible,.cky-notice-des button.cky-policy:focus-visible,.cky-dma-content-wrapper a.cky-policy:focus-visible,.cky-dma-content-wrapper button.cky-policy:focus-visible,.cky-preference-content-wrapper .cky-show-desc-btn:focus-visible,.cky-accordion-header .cky-accordion-btn:focus-visible,.cky-preference-header .cky-btn-close:focus-visible,.cky-switch input[type=\"checkbox\"]:focus-visible,.cky-footer-wrapper a:focus-visible,.cky-btn:focus-visible{outline:2px solid #1863dc;outline-offset:2px}.cky-btn:focus:not(:focus-visible),.cky-accordion-header .cky-accordion-btn:focus:not(:focus-visible),.cky-preference-content-wrapper .cky-show-desc-btn:focus:not(:focus-visible),.cky-btn-revisit-wrapper .cky-btn-revisit:focus:not(:focus-visible),.cky-preference-header .cky-btn-close:focus:not(:focus-visible),.cky-consent-bar .cky-banner-btn-close:focus:not(:focus-visible){outline:0}button.cky-show-desc-btn:not(:hover):not(:active){color:#1863dc;background:#fff0}button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:not(:hover):not(:active),button.cky-btn-close:not(:hover):not(:active),button.cky-btn-revisit:not(:hover):not(:active){background:#fff0}.cky-consent-bar button:hover,.cky-modal.cky-modal-open button:hover,.cky-consent-bar button:focus,.cky-modal.cky-modal-open button:focus{text-decoration:none}.cky-notice-btn-wrapper{display:flex;justify-content:center;align-items:center;margin-left:15px}.cky-notice-btn-wrapper .cky-btn{text-shadow:none;box-shadow:none}.cky-btn{font-size:14px;font-family:inherit;line-height:24px;padding:8px 27px;font-weight:500;margin:0 8px 0 0;border-radius:2px;white-space:nowrap;cursor:pointer;text-align:center;text-transform:none;min-height:0;overflow-wrap:break-word}.cky-btn:hover{opacity:.8}.cky-btn-customize{color:#1863dc;background:#fff0;border:2px solid #1863dc}.cky-btn-reject{color:#1863dc;background:#fff0;border:2px solid #1863dc}.cky-btn-accept{background:#1863dc;color:#fff;border:2px solid #1863dc}.cky-btn:last-child{margin-right:0}@media (max-width:768px){.cky-notice-group{display:block}.cky-notice-btn-wrapper{margin-left:0}.cky-notice-btn-wrapper .cky-btn{flex:auto;max-width:100%;margin-top:10px;white-space:unset}}@media (max-width:576px){.cky-notice-btn-wrapper{flex-direction:column}.cky-custom-brand-logo-wrapper,.cky-notice .cky-title,.cky-notice-des,.cky-notice-btn-wrapper{padding:0 28px}.cky-consent-container .cky-consent-bar{padding:16.5px 0}.cky-notice-des{max-height:40vh;overflow-y:scroll}.cky-notice-btn-wrapper .cky-btn{width:100%;padding:8px;margin-right:0}.cky-notice-btn-wrapper .cky-btn-accept{order:1}.cky-notice-btn-wrapper .cky-btn-reject{order:3}.cky-notice-btn-wrapper .cky-btn-customize{order:2}}@media (max-width:425px){.cky-custom-brand-logo-wrapper,.cky-notice .cky-title,.cky-notice-des,.cky-notice-btn-wrapper{padding:0 24px}.cky-notice-btn-wrapper{flex-direction:column}.cky-btn{width:100%;margin:10px 0 0 0}.cky-notice-btn-wrapper .cky-btn-customize{order:2}.cky-notice-btn-wrapper .cky-btn-reject{order:3}.cky-notice-btn-wrapper .cky-btn-accept{order:1;margin-top:16px}}@media (max-width:352px){.cky-notice .cky-title{font-size:16px}.cky-notice-des *{font-size:12px}.cky-notice-des,.cky-btn{font-size:12px}}.cky-modal.cky-modal-open{display:flex;visibility:visible;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);top:50%;left:50%;transition:all 1s ease;max-height:100%}.cky-modal{box-shadow:0 32px 68px rgb(0 0 0 / .3);margin:0 auto;position:fixed;max-width:100%;background:#fff;top:50%;box-sizing:border-box;border-radius:6px;z-index:999999999;color:#212121;-webkit-transform:translate(-50%,100%);-moz-transform:translate(-50%,100%);-ms-transform:translate(-50%,100%);-o-transform:translate(-50%,100%);transform:translate(-50%,100%);visibility:hidden;transition:all 0s ease}.cky-preference-center{max-height:79vh;overflow:hidden;width:845px;overflow:hidden;flex:1 1 0%;display:flex;flex-direction:column;border-radius:6px}.cky-preference-header{display:flex;align-items:center;justify-content:space-between;padding:22px 24px;border-bottom:1px solid}.cky-preference-header .cky-preference-title{font-size:18px;font-weight:700;line-height:24px;word-break:break-word}.cky-preference-header .cky-btn-close{margin:0;cursor:pointer;vertical-align:middle;padding:0;background:none;border:none;width:24px;height:24px;min-height:0;line-height:0;text-shadow:none;box-shadow:none}.cky-preference-header .cky-btn-close img{margin:0;height:10px;width:10px}.cky-preference-body-wrapper{padding:0 24px;flex:1;overflow:auto;box-sizing:border-box}@media (max-height:576px){.cky-preference-center{height:100vh;overflow:auto}.cky-preference-center .cky-preference-body-wrapper{overflow:unset}}@media (max-height:480px){.cky-consent-container{max-height:100vh;overflow-y:scroll}.cky-notice-des{max-height:unset;overflow-y:unset}}.cky-preference-content-wrapper,.cky-gpc-wrapper .cky-gpc-desc{font-size:14px;line-height:24px;font-weight:400;padding:12px 0}.cky-preference-content-wrapper img{min-height:25px;min-width:25px}.cky-preference-content-wrapper .cky-show-desc-btn{font-size:14px;font-family:inherit;color:#1863dc;text-decoration:none;line-height:24px;padding:0;margin:0;white-space:nowrap;cursor:pointer;background:#fff0;border-color:#fff0;text-transform:none;min-height:0;text-shadow:none;box-shadow:none}.cky-accordion-wrapper{margin-bottom:10px}.cky-accordion{border-bottom:1px solid}.cky-accordion:last-child{border-bottom:none}.cky-accordion .cky-accordion-item{display:flex;margin-top:10px}.cky-accordion .cky-accordion-body{display:none}.cky-accordion.cky-accordion-active .cky-accordion-body{display:block;padding:0 22px;margin-bottom:16px}.cky-accordion-header-wrapper{cursor:pointer;width:100%}.cky-accordion-item .cky-accordion-header{display:flex;justify-content:space-between;align-items:center}.cky-accordion-header .cky-accordion-btn{font-size:16px;font-family:inherit;color:#212121;line-height:24px;background:none;border:none;font-weight:700;padding:0;margin:0;cursor:pointer;text-transform:none;min-height:0;text-shadow:none;box-shadow:none}.cky-accordion-header .cky-always-active{color:green;font-weight:600;line-height:24px;font-size:14px}.cky-accordion-header-des{font-size:14px;line-height:24px;margin:10px 0 16px 0}.cky-accordion-chevron{margin-right:22px;position:relative;cursor:pointer}.cky-accordion-chevron-hide{display:none}.cky-accordion .cky-accordion-chevron i::before{content:\"\";position:absolute;border-right:1.4px solid;border-bottom:1.4px solid;border-color:inherit;height:6px;width:6px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);transition:all 0.2s ease-in-out;top:8px}.cky-accordion.cky-accordion-active .cky-accordion-chevron i::before{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.cky-audit-table{background:#f4f4f4;border-radius:6px}.cky-audit-table .cky-empty-cookies-text{color:inherit;font-size:12px;line-height:24px;margin:0;padding:10px;word-break:break-word}.cky-audit-table .cky-cookie-des-table{font-size:12px;line-height:24px;font-weight:400;padding:15px 10px;border-bottom:1px solid;border-bottom-color:inherit;margin:0}.cky-audit-table .cky-cookie-des-table:last-child{border-bottom:none}.cky-audit-table .cky-cookie-des-table li{list-style-type:none;display:flex;padding:3px 0}.cky-audit-table .cky-cookie-des-table li:first-child{padding-top:0}.cky-cookie-des-table li div:first-child{width:100px;font-weight:600;word-break:break-word;word-wrap:break-word}.cky-cookie-des-table li div:last-child{flex:1;word-break:break-word;word-wrap:break-word;margin-left:8px}.cky-footer-shadow{display:block;width:100%;height:40px;background:linear-gradient(180deg,#fff0 0%,#ffffff 100%);position:absolute;bottom:calc(100% - 1px)}.cky-footer-wrapper{position:relative}.cky-prefrence-btn-wrapper{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;padding:22px 24px;border-top:1px solid;gap:8px}.cky-prefrence-btn-wrapper .cky-btn{flex:auto;max-width:100%;text-shadow:none;box-shadow:none;margin:0;white-space:unset;overflow-wrap:break-word}.cky-btn-preferences{color:#1863dc;background:#fff0;border:2px solid #1863dc}.cky-preference-header,.cky-preference-body-wrapper,.cky-accordion-wrapper,.cky-accordion,.cky-accordion-wrapper,.cky-footer-wrapper,.cky-prefrence-btn-wrapper{border-color:inherit}.cky-preference-body-wrapper .cky-dma-content-wrapper{font-size:14px;line-height:24px;font-weight:400;padding:4px 0 12px}.cky-preference-body-wrapper .cky-dma-content-wrapper p{color:inherit;word-break:break-word}.cky-preference-body-wrapper .cky-dma-content-wrapper p:first-child{margin-top:0}.cky-preference-body-wrapper .cky-dma-content-wrapper p:last-child{margin-bottom:0}.cky-preference-body-wrapper .cky-horizontal-separator{border-bottom:1px solid;border-color:inherit}@media (max-width:845px){.cky-modal{max-width:calc(100% - 16px)}}@media (max-width:576px){.cky-modal{max-width:100%}.cky-preference-center{max-height:100vh}.cky-prefrence-btn-wrapper{flex-direction:column}.cky-accordion.cky-accordion-active .cky-accordion-body{padding-right:0}.cky-prefrence-btn-wrapper .cky-btn{width:100%;margin:10px 0 0 0}.cky-prefrence-btn-wrapper .cky-btn-reject{order:3}.cky-prefrence-btn-wrapper .cky-btn-accept{order:1;margin-top:0}.cky-prefrence-btn-wrapper .cky-btn-preferences{order:2}}@media (max-width:425px){.cky-accordion-chevron{margin-right:15px}.cky-notice-btn-wrapper{margin-top:0}.cky-accordion.cky-accordion-active .cky-accordion-body{padding:0 15px}}@media (max-width:352px){.cky-preference-header .cky-preference-title{font-size:16px}.cky-preference-header{padding:16px 24px}.cky-preference-content-wrapper *,.cky-accordion-header-des *,.cky-dma-content-wrapper *{font-size:12px}.cky-preference-content-wrapper,.cky-preference-body-wrapper .cky-dma-content-wrapper,.cky-preference-content-wrapper .cky-show-more,.cky-accordion-header .cky-always-active,.cky-accordion-header-des,.cky-preference-content-wrapper .cky-show-desc-btn,.cky-notice-des a.cky-policy,.cky-dma-content-wrapper a.cky-policy{font-size:12px}.cky-accordion-header .cky-accordion-btn{font-size:14px}}.cky-switch{display:flex}.cky-switch input[type=\"checkbox\"]{position:relative;width:44px;height:24px;margin:0;background:#d0d5d2;-webkit-appearance:none;border-radius:50px;cursor:pointer;outline:0;border:none;top:0}.cky-switch input[type=\"checkbox\"]:checked{background:#1863dc}.cky-switch input[type=\"checkbox\"]:before{position:absolute;content:\"\";height:20px;width:20px;left:2px;bottom:2px;border-radius:50%;background-color:#fff;-webkit-transition:0.4s;transition:0.4s;margin:0}.cky-switch input[type=\"checkbox\"]:after{display:none}.cky-switch input[type=\"checkbox\"]:checked:before{-webkit-transform:translateX(20px);-ms-transform:translateX(20px);transform:translateX(20px)}@media (max-width:425px){.cky-switch input[type=\"checkbox\"]{width:38px;height:21px}.cky-switch input[type=\"checkbox\"]:before{height:17px;width:17px}.cky-switch input[type=\"checkbox\"]:checked:before{-webkit-transform:translateX(17px);-ms-transform:translateX(17px);transform:translateX(17px)}}.cky-consent-bar .cky-banner-btn-close{position:absolute;right:9px;top:5px;background:none;border:none;cursor:pointer;padding:0;margin:0;min-height:0;line-height:0;height:24px;width:24px;text-shadow:none;box-shadow:none}.cky-consent-bar .cky-banner-btn-close img{height:9px;width:9px;margin:0}.cky-notice-btn-wrapper .cky-btn-do-not-sell{font-size:14px;line-height:24px;padding:6px 0;margin:0;font-weight:500;background:none;border-radius:2px;border:none;white-space:nowrap;cursor:pointer;text-align:left;color:#1863dc;background:#fff0;border-color:#fff0;box-shadow:none;text-shadow:none;text-decoration:underline}.cky-consent-bar .cky-banner-btn-close:focus-visible,.cky-notice-btn-wrapper .cky-btn-do-not-sell:focus-visible,.cky-opt-out-btn-wrapper .cky-btn:focus-visible,.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:focus-visible{outline:2px solid #1863dc;outline-offset:2px}@media (max-width:768px){.cky-notice-btn-wrapper{margin-left:0;margin-top:10px;justify-content:left}.cky-notice-btn-wrapper .cky-btn-do-not-sell{padding:0}}@media (max-width:352px){.cky-notice-btn-wrapper .cky-btn-do-not-sell,.cky-notice-des a.cky-policy,.cky-notice-des a.cky-link-default{font-size:12px}}.cky-opt-out-wrapper{padding:12px 0}.cky-opt-out-wrapper .cky-opt-out-checkbox-wrapper{display:flex;align-items:center}.cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{font-size:16px;font-weight:700;line-height:24px;margin:0 0 0 12px;cursor:pointer;word-break:break-word}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox{background-color:#fff;border:1px solid #000;width:20px;height:18.5px;margin:0;-webkit-appearance:none;position:relative;display:flex;align-items:center;justify-content:center;border-radius:2px;cursor:pointer}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked{background-color:#1863dc;border:none}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked::after{left:6px;bottom:4px;width:7px;height:13px;border:solid #fff;border-width:0 3px 3px 0;border-radius:2px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);content:\"\";position:absolute;box-sizing:border-box}.cky-opt-out-checkbox-wrapper.cky-disabled .cky-opt-out-checkbox-label,.cky-opt-out-checkbox-wrapper.cky-disabled input[type=\"checkbox\"].cky-opt-out-checkbox{cursor:no-drop}.cky-gpc-wrapper{margin:0 0 0 32px}.cky-footer-wrapper .cky-opt-out-btn-wrapper{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;padding:22px 24px}.cky-opt-out-btn-wrapper .cky-btn{flex:auto;max-width:100%;text-shadow:none;box-shadow:none}.cky-opt-out-btn-wrapper .cky-btn-cancel{border:1px solid #dedfe0;background:#fff0;color:#858585}.cky-opt-out-btn-wrapper .cky-btn-confirm{background:#1863dc;color:#fff;border:1px solid #1863dc}@media (max-width:352px){.cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{font-size:14px}.cky-gpc-wrapper .cky-gpc-desc,.cky-gpc-wrapper .cky-gpc-desc *{font-size:12px}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox{width:16px;height:16px}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked::after{left:5px;bottom:4px;width:3px;height:9px}.cky-gpc-wrapper{margin:0 0 0 28px}}.video-placeholder-youtube{background-size:100% 100%;background-position:center;background-repeat:no-repeat;background-color:#b2b0b059;position:relative;display:flex;align-items:center;justify-content:center;max-width:100%}.video-placeholder-text-youtube{text-align:center;align-items:center;padding:10px 16px;background-color:#000c;color:#fff;border:1px solid;border-radius:2px;cursor:pointer}.video-placeholder-normal{background-image:url(https://cdn-cookieyes.com/assets/images/cky-placeholder.svg);background-size:80px;background-position:center;background-repeat:no-repeat;background-color:#b2b0b059;position:relative;display:flex;align-items:flex-end;justify-content:center;max-width:100%}.video-placeholder-text-normal{align-items:center;padding:10px 16px;text-align:center;border:1px solid;border-radius:2px;cursor:pointer}.cky-rtl{direction:rtl;text-align:right}.cky-rtl .cky-banner-btn-close{left:9px;right:auto}.cky-rtl .cky-notice-btn-wrapper .cky-btn:last-child{margin-right:8px}.cky-rtl .cky-notice-btn-wrapper .cky-btn:first-child{margin-right:0}.cky-rtl .cky-notice-btn-wrapper{margin-left:0;margin-right:15px}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn{margin-right:8px}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn:first-child{margin-right:0}.cky-rtl .cky-accordion .cky-accordion-chevron i::before{border:none;border-left:1.4px solid;border-top:1.4px solid;left:12px}.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-chevron i::before{-webkit-transform:rotate(-135deg);-moz-transform:rotate(-135deg);-ms-transform:rotate(-135deg);-o-transform:rotate(-135deg);transform:rotate(-135deg)}@media (max-width:768px){.cky-rtl .cky-notice-btn-wrapper{margin-right:0}}@media (max-width:576px){.cky-rtl .cky-notice-btn-wrapper .cky-btn:last-child{margin-right:0}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn{margin-right:0}.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-body{padding:0 22px 0 0}}@media (max-width:425px){.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-body{padding:0 15px 0 0}}.cky-rtl .cky-opt-out-btn-wrapper .cky-btn{margin-right:12px}.cky-rtl .cky-opt-out-btn-wrapper .cky-btn:first-child{margin-right:0}.cky-rtl .cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{margin:0 12px 0 0} </style>",
+      "defaultLanguage": "en",
+      "bannerType": "banner",
+      "respectGPC": false,
+      "iabEnabled": false,
+      "scriptExpiry": 365,
+      "languageMap": {
+        "en": "SbUaVcLs"
+      },
+      "globalLanguageMap": {
+        "en": "9bMReZxl"
+      }
+    },
+    "discovered_at": "2026-01-15T16:29:51.568160Z",
+    "career_url": "https://www.avelios.com/careers",
+    "company_name": "Avelios",
+    "last_verified": "2026-01-15T16:29:51.613466Z",
+    "status": "active"
   }
 }
