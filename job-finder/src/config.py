@@ -100,7 +100,7 @@ COMPANIES = [
         "url": "https://www.capgemini.com/de-de/karriere/",
         "keywords": ["intern", "internship", "werkstudent", "working student", "student", "praktikum"],
         "locations": ["Germany"],
-        "use_api": True,  # Try API discovery first
+        "use_api": False,  # Disable API - page timeout during discovery
     },
     {
         "name": "Avelios",

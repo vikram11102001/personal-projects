@@ -28,13 +28,13 @@ class APIDiscovery:
             'employment', 'recruit', 'applicant', 'candidate'
         ]
     
-    async def discover_api(self, career_url: str, timeout: int = 60000) -> Optional[Dict]:
+    async def discover_api(self, career_url: str, timeout: int = 90000) -> Optional[Dict]:
         """
         Discover job API from a career page URL.
         
         Args:
             career_url: The career page URL to analyze
-            timeout: Maximum time to wait for page load (ms) - default 60 seconds
+            timeout: Maximum time to wait for page load (ms) - default 90 seconds
             
         Returns:
             Dictionary with API configuration or None if not found
@@ -44,7 +44,8 @@ class APIDiscovery:
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
             context = await browser.new_context(
-                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+                ignore_https_errors=True  # Fix SSL certificate issues (e.g., Infineon)
             )
             page = await context.new_page()
             
@@ -86,15 +87,27 @@ class APIDiscovery:
         # Only capture XHR and Fetch requests
         resource_type = request.resource_type
         if resource_type in ['xhr', 'fetch']:
-            request_data = {
-                'url': request.url,
-                'method': request.method,
-                'headers': request.headers,
-                'post_data': request.post_data,
-                'resource_type': resource_type,
-                'timestamp': datetime.utcnow().isoformat()
-            }
-            self.captured_requests.append(request_data)
+            try:
+                # Try to get post_data, but handle binary data gracefully
+                post_data = None
+                try:
+                    post_data = request.post_data
+                except UnicodeDecodeError:
+                    # Skip binary data that can't be decoded as UTF-8
+                    pass
+                
+                request_data = {
+                    'url': request.url,
+                    'method': request.method,
+                    'headers': request.headers,
+                    'post_data': post_data,
+                    'resource_type': resource_type,
+                    'timestamp': datetime.utcnow().isoformat()
+                }
+                self.captured_requests.append(request_data)
+            except Exception as e:
+                # Silently skip problematic requests
+                pass
     
     async def _on_response(self, response: Response):
         """Capture response data for relevant requests."""
