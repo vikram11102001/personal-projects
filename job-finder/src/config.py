@@ -50,6 +50,72 @@ COMPANIES = [
         "locations": ["Germany", "Munich", "Remote"],
         "use_api": False,  # Disable API - HTML scraping works better for pre-filtered URLs
     },
+
+    # New companies added 2026-01-15
+    {
+        "name": "Infineon",
+        "url": "https://jobs.infineon.com/careers?domain=infineon.com&start=0&location=Germany&pid=563808968063175&sort_by=match&filter_include_remote=0",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany"],
+        "use_api": True,  # Try API discovery first
+    },
+    {
+        "name": "Siemens",
+        "slug": "siemens",  # API config already exists in api_configs.json
+        "url": "https://jobs.siemens.com/en_US/externaljobs?ste_sid=5f855cdd733bcdc8f16bf56668a0c81b",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany"],
+        "use_api": True,  # Will use existing API config
+    },
+    {
+        "name": "BSH Group",
+        "url": "https://jobs.bsh-group.de/index",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany"],
+        "use_api": True,  # Try API discovery first
+    },
+    {
+        "name": "Vinolinde",
+        "url": "https://join.com/companies/vinolinde",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany"],
+        "use_api": True,  # Try API discovery first
+    },
+    {
+        "name": "Stability AI",
+        "url": "https://stability.ai/careers",
+        "keywords": ["intern", "internship", "working student"],
+        "locations": ["Germany", "Remote"],
+        "use_api": True,  # Try API discovery first
+    },
+    {
+        "name": "Trusteq",
+        "url": "https://trusteq-gmbh.jobs.personio.de/?language=de",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany"],
+        "use_api": True,  # Try API discovery first
+    },
+    {
+        "name": "Capgemini",
+        "url": "https://www.capgemini.com/de-de/karriere/",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student", "praktikum"],
+        "locations": ["Germany"],
+        "use_api": True,  # Try API discovery first
+    },
+    {
+        "name": "Avelios",
+        "url": "https://www.avelios.com/careers",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student"],
+        "locations": ["Germany", "Munich", "Bavaria"],
+        "use_api": True,  # Try API discovery first
+    },
+    {
+        "name": "Valeo",
+        "url": "https://www.valeo.com/en/career-in-germany/",
+        "keywords": ["intern", "internship", "werkstudent", "working student", "student", "praktikant"],
+        "locations": ["Germany"],
+        "use_api": True,  # Try API discovery first
+    },
     
 ]
 
@@ -58,7 +124,7 @@ COMPANIES = [
 COMPANY_URLS = []
 
 # Email settings
-EMAIL_RECIPIENT = os.getenv("EMAIL_RECIPIENT", "pratheeksha1902@gmail.com")
+EMAIL_RECIPIENT = os.getenv("EMAIL_RECIPIENT", "vikram11102001@gmail.com")
 GMAIL_EMAIL = os.getenv("GMAIL_EMAIL", "")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD", "")
 
@@ -84,6 +150,40 @@ JOB_TYPE_KEYWORDS = [
     "part time",
     "part-time",
     "teilzeit",  # German for part-time
+]
+
+# Job field filtering
+# Only jobs matching these field keywords (case-insensitive) will be included
+# Jobs must match BOTH job type AND field keywords
+JOB_FIELD_KEYWORDS = [
+    # Artificial Intelligence
+    "artificial intelligence",
+    "ai",
+    "machine learning",
+    "ml",
+    "deep learning",
+    "neural network",
+    "computer vision",
+    "cv",
+    "natural language processing",
+    "nlp",
+    "large language model",
+    "llm",
+    "gen ai",
+    "generative ai",
+    
+    # Data Science
+    "data science",
+    "data scientist",
+    "data analytics",
+    "data analyst",
+    "data engineer",
+    "data engineering",
+    
+    # Related fields
+    "machine intelligence",
+    "intelligent systems",
+    "autonomous systems",
 ]
 
 # Location filtering

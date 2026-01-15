@@ -5,7 +5,7 @@ Now with automatic API discovery!
 import sys
 import re
 import asyncio
-from src.config import COMPANIES, COMPANY_URLS, JOBS_DATA_FILE, JOB_TYPE_KEYWORDS, LOCATION_KEYWORDS
+from src.config import COMPANIES, COMPANY_URLS, JOBS_DATA_FILE, JOB_TYPE_KEYWORDS, JOB_FIELD_KEYWORDS, LOCATION_KEYWORDS
 from src.dynamic_api_scraper import DynamicAPIScraper
 from src.api_discovery import discover_company_api
 from src.comparison import compare_and_update_jobs
@@ -21,17 +21,31 @@ def slugify(name: str) -> str:
     return slug
 
 
-def filter_jobs_by_type(jobs, keywords=None):
-    """Filter jobs by job type keywords only (location already filtered by API)."""
-    if keywords is None:
-        keywords = JOB_TYPE_KEYWORDS
+def filter_jobs_by_type_and_field(jobs, type_keywords=None, field_keywords=None):
+    """Filter jobs by job type AND field keywords.
+    
+    Jobs must match:
+    1. At least one job type keyword (intern, working student, etc.)
+    2. At least one field keyword (AI, ML, Data Science, etc.)
+    """
+    if type_keywords is None:
+        type_keywords = JOB_TYPE_KEYWORDS
+    if field_keywords is None:
+        field_keywords = JOB_FIELD_KEYWORDS
     
     filtered = []
     
     for job in jobs:
-        # Check job type
         title_lower = job['title'].lower()
-        if any(keyword.lower() in title_lower for keyword in keywords):
+        
+        # Check if job matches type (intern/working student)
+        matches_type = any(keyword.lower() in title_lower for keyword in type_keywords)
+        
+        # Check if job matches field (AI/ML/Data Science)
+        matches_field = any(keyword.lower() in title_lower for keyword in field_keywords)
+        
+        # Job must match BOTH type AND field
+        if matches_type and matches_field:
             filtered.append(job)
     
     return filtered
@@ -93,9 +107,9 @@ async def scrape_company_async(company, scraper):
     
     # Filter jobs by job type (location already filtered by API)
     if jobs:
-        print(f"📊 Filtering {len(jobs)} jobs by job type...")
-        filtered_jobs = filter_jobs_by_type(jobs, keywords)
-        print(f"✅ {len(filtered_jobs)} jobs match criteria")
+        print(f"📊 Filtering {len(jobs)} jobs by job type and field...")
+        filtered_jobs = filter_jobs_by_type_and_field(jobs, keywords)
+        print(f"✅ {len(filtered_jobs)} jobs match criteria (internship/student + AI/ML/Data Science)")
         return filtered_jobs
     else:
         print(f"❌ No jobs found")
