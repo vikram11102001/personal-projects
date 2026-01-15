@@ -1111,5 +1111,179 @@
     "company_name": "Avelios",
     "last_verified": "2026-01-15T16:29:51.613466Z",
     "status": "active"
+  },
+  "infineon": {
+    "endpoint": "https://jobs.infineon.com/api/pcsx/position_details?position_id=563808968063175&domain=infineon.com&hl=en&queried_location=Germany",
+    "method": "GET",
+    "headers": {
+      "referer": "https://jobs.infineon.com/careers?domain=infineon.com&start=0&location=Germany&pid=563808968063175&sort_by=match&filter_include_remote=0"
+    },
+    "payload_template": null,
+    "response_sample": {
+      "status": 200,
+      "error": {
+        "message": "",
+        "body": ""
+      },
+      "data": {
+        "id": 563808968063175,
+        "displayJobId": "HRC1384263",
+        "name": "Senior Engineer Software Development (w/m/div)",
+        "locations": [
+          "Warstein (Germany)"
+        ],
+        "standardizedLocations": [
+          "Warstein, NRW, DE"
+        ],
+        "postedTs": 1763995422,
+        "stars": 0,
+        "department": "GIP",
+        "creationTs": 1763468389,
+        "jobDescription": "#WeAreIn for jobs that impact everyone's life\r\n\r\nAngefangen bei den Daten bis zum fertigen Projekt: Bauen Sie mit uns die intelligenten Systeme von morgen.\r\nAls Senior Engineer Software Development (w/m/div) bei der Infineon Technologies Bipolar GmbH & Co. KG im Software- und Data-Science-Team programmieren Sie die intelligenten Prozesse hinter den Chips, wandeln komplexe Daten in aussagekr\u00e4ftige Erkenntnisse um und entwickeln topmoderne L\u00f6sungen, die ganze Branchen neu definieren und die Herausforderungen von morgen meistern.\r\n\r\nAre you in?<br><br><font size=\"4px\"><b>Stellenbeschreibung</b></font><br>Als Senior Engineer Software Development (w/m/div) <font>bei der\u00a0</font>Infineon Technologies Bipolar GmbH & Co. KG verantworten Sie die Weiterentwicklung, Modernisierung und den stabilen Betrieb unseres bestehenden QM-Systems. Sie arbeiten end-to-end \u00fcber Frontend, Backend und Datenbanken, stellen die Konnektivit\u00e4t zu Umsystemen sicher und beraten die Fachbereiche hinsichtlich Prozessverbesserungen. Dabei setzen Sie auf saubere Architektur, hohe Code-Qualit\u00e4t und belastbare Dokumentation.<br><br>Zu Ihren neuen Aufgaben geh\u00f6ren u. a.:<br><ul><li>Wartung, Betrieb und kontinuierliche      Verbesserung des bestehenden <b>QM-Systems, inkl </b>des\u00a0<b>2nd- und 3rd-Level-Support</b> f\u00fcr das QM-System (Incident-, Problem- und Change-Management)</li>  <li>Planung und Umsetzung der <b>technologischen      Modernisierung</b> (z. B. Migration auf aktuelle Frameworks/Plattformen)</li>  <li><b>Full-Stack-Entwicklung</b> (UI, Backend, DB)      inkl. Design und Implementierung von REST-APIs</li>  <li>Beratung der Fachbereiche zu      Prozessoptimierungen oder Neueinf\u00fchrungen; \u00dcbersetzung fachlicher      Anforderungen in technische L\u00f6sungen</li>  <li><b>Sicherstellung der Konnektivit\u00e4t mit Um- und      Subsystemen</b> (Schnittstellen, Integrationen, Datenfl\u00fcsse)</li>  <li><b>Erstellung und Pflege technischer und      fachlicher Dokumentation</b> (Ist- und Soll-Architektur, Betrieb, Compliance)</li>  <li><b>Monitoring, Logging und Observability </b>und der\u00a0Mitwirkung an stabilen Betriebsprozessen</li>  <li><b>Enge Zusammenarbeit mit IT, Fachbereichen und      externen Partnern</b></li></ul><br><br><font size=\"4px\"><b>Ihr Profil</b></font><br><span style=\" display:block;\">Es f\u00e4llt Ihnen leicht, komplexe technische Zusammenh\u00e4nge schnell zu erfassen, zu strukturieren, effektiv zu priorisieren und verst\u00e4ndlich zu vermitteln. Mit Ihrer analytischen St\u00e4rke, Entscheidungsf\u00e4higkeit und Ihrem\u00a0strukturierten Vorgehen treiben Sie so innovative L\u00f6sungen zuverl\u00e4ssig voran, wobei\u00a0Ihnen Ihr Gesp\u00fcr\u00a0f\u00fcr die neuesten technologischen Trends\u00a0hilft.<br>Sie \u00fcberzeugen durch ausgepr\u00e4gte Kommunikations- und Beratungskompetenz sowie souver\u00e4nes Stakeholder-Management und Teamf\u00e4higkeit \u00fcber Fachgrenzen hinweg.\u00a0Analytisches Denken, hohes Qualit\u00e4tsbewusstsein und Eigenverantwortung zeichnen Sie ebenso aus wie Ihre Lernbereitschaft, pragmatischen Haltung und Mentoring-Mentalit\u00e4t, womit Sie\u00a0den Wissensaustausch f\u00f6rdern und Ihr Team nachhaltig st\u00e4rken.<br><br></span>  Was bringen Sie dar\u00fcber hinaus mit?<br>  <ul><li><b>Einen Bachelorabschluss im Bereich Informatik, Software Engineering o.\u00e4.\u00a0oder gleichwertiger Qualifikation\u00a0</b></li>  <li><b>Idealerweise\u00a0</b><b>mehr als 3 Jahre</b> relevante Berufserfahrung in der      <b>Softwareentwicklung </b>in unternehmenskritischen Systemen</li><li><b>Fundierte Erfahrung in Full-Stack-Entwicklung</b>      und <b>Datenbanken</b></li>  <li>Routine in der <b>Erstellung belastbarer      Dokumentation</b> und in geregelten<b> Change-/Release-Prozessen</b></li>  <li><b>W\u00fcnschenswert fundierte Kenntnisse im Tech-Stack\u00a0oder Bereitschaft zur Einarbeitung</b>:<ul><li>Frontend-Frameworks, wie React oder Angular</li><li>.NET Framework und .NET Entity Framework</li><li>Microsoft SQL Server oder Oracle DB</li><li>Kubernetes oder OpenShift (Container-Orchestrierung)</li><li>REST/RESTful-Services</li><li>Git (Versionsverwaltung)</li></ul></li><li>Sehr gute <b>Deutschkenntnisse (C1)</b> und <b>gute      Englischkenntnisse (B2)</b></li></ul><br><br><br><strong>Contact:</strong><br>\u00a0\u00a0\u00a0\u00a0Louise Rad\u00fcge, <a href=https://www.linkedin.com/in/louise-christina-rad\u00fcge-a88262185/>LinkedIn</a> <br><br><br><strong>Kontakt:</strong><br>\u00a0\u00a0\u00a0\u00a0Louise Rad\u00fcge<br><br><p><b>#WeAreIn for driving decarbonization and digitalization.</b><br>Als ein weltweit f\u00fchrender Anbieter von Halbleiterl\u00f6sungen f\u00fcr Power-Systems und IoT erm\u00f6glichen wir wegweisende L\u00f6sungen f\u00fcr gr\u00fcne und effiziente Energie, saubere und sichere Mobilit\u00e4t sowie ein intelligentes und sicheres IoT. Gemeinsam treiben wir Innovation und den Erfolg unserer Kund*innen voran. Gleichzeitig k\u00fcmmern wir uns um unsere Mitarbeitenden und best\u00e4rken sie darin, ihre ambitionierten Ziele zu erreichen. Helfen Sie uns, das Leben einfacher, sicherer und nachhaltiger zu machen.<br><b>Are you in?</b><br><br><b style=\"background-color: initial;\">Unser Ziel ist es, das beste Infineon f\u00fcr alle zu erschaffen.<br></b>Wir stehen f\u00fcr eine vielf\u00e4ltige und inklusive Kultur und begr\u00fc\u00dfen jede Person so wie sie ist. Bei Infineon bieten wir ein Arbeitsumfeld, das von Vertrauen, Offenheit, Respekt und Toleranz gepr\u00e4gt ist. Wir verpflichten uns, allen Bewerbenden die gleichen Chancen zu bieten und treffen unsere Einstellungsentscheidungen basierend auf den Erfahrungen und F\u00e4higkeiten der Bewerbenden.\u00a0<a href=\"https://www.infineon.com/cms/en/about-infineon/company/contacts/\">Erfahren Sie mehr</a> \u00fcber unsere verschiedenen Kontaktm\u00f6glichkeiten.<br>Wir freuen uns auf Ihren Lebenslauf, auch wenn Sie nicht alle Anforderungen der Stellenanzeige vollst\u00e4ndig erf\u00fcllen.<br>Bitte teilen Sie uns mit, falls Sie bestimmte Vorkehrungen ben\u00f6tigen, um am Einstellungsverfahren teilnehmen zu k\u00f6nnen. Wir helfen Ihnen gerne.<br><a href=\"https://www.infineon.com/cms/de/careers/diversity-and-inclusion/\">Hier</a> finden Sie mehr Informationen zu Diversity & Inclusion bei Infineon.</p>",
+        "location": "Warstein (Germany)",
+        "isHot": 0,
+        "workLocationOption": "hybrid",
+        "locationFlexibility": null,
+        "atsJobId": "124060",
+        "positionUrl": "/careers/job/563808968063175",
+        "publicUrl": "https://jobs.infineon.com/careers/job/563808968063175",
+        "efcustomTextJobFamily": [
+          "Information Technology"
+        ],
+        "efcustomTextTypeOfEmployment": [
+          "Full time"
+        ],
+        "efcustomTextDurationOfEmployment": [
+          "Permanent"
+        ],
+        "efcustomTextWorkplaceType": [
+          "Hybrid"
+        ],
+        "efcustomTextJoinAs": [
+          "Professional (incl. Management Positions)"
+        ],
+        "jdHighlight": [],
+        "positionExtraDetails": {
+          "videos": [
+            {
+              "url": "https://www.youtube.com/embed/TKB7T8hSzqk",
+              "title": "Global Employer Brand Video: What's it like to work for Infineon? | Infineon",
+              "description": "Today, we're thrilled to share our global employee video, where colleagues from around the world give you a sneak peek into our working environment an..."
+            }
+          ],
+          "blogs": [
+            {
+              "title": "Working at Infineon:",
+              "description": "Discover our different key functions",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760509304::Image+logo",
+              "url": "https://www.infineon.com/careers/teams"
+            },
+            {
+              "title": "How to Apply:",
+              "description": "Learn more about our application process",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760509670::Application.png",
+              "url": "https://www.infineon.com/careers/how-to-apply"
+            },
+            {
+              "title": "Diversity & Inclusion:",
+              "description": "Discover how we live Diversity & Inclusion at Infineon",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760509763::D&I.png",
+              "url": "https://www.infineon.com/careers/diversity-inclusion"
+            },
+            {
+              "title": "Locations:",
+              "description": "Infineon is at home all over the world. Anyone who wants to can see the world with us",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760509853::Our+locations.png",
+              "url": "https://www.infineon.com/careers/our-locations"
+            },
+            {
+              "title": "Benefits:",
+              "description": "Learn more about global career development and our benefits",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760510205::Global+Benefits.png",
+              "url": "https://www.infineon.com/careers/global-career-development-and-benefits"
+            }
+          ],
+          "perks": [
+            {
+              "title": "Career development & learning",
+              "description": "About 17,000 free LinkedIn Learning courses in 10 languages, Mentoring & Coaching programs, Global Onboarding process as well as Virtual & f2f trainings",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760510028::Graduation+Cap+Benefits+XS",
+              "imageAlt": null,
+              "icon": "fa-graduation-cap",
+              "isFavicon": true
+            },
+            {
+              "title": "Time & flexibility",
+              "description": "Flexible working hours & part-time work, Mobile work (specifications based on job profile and local requirements), Remote work from abroad / Workation (EU), Sabbatical (EU)",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760510085::Business+Time+Benefits+XS",
+              "imageAlt": null,
+              "icon": "fa-user-clock",
+              "isFavicon": true
+            },
+            {
+              "title": "Health & wellbeing",
+              "description": "Health activities & programs, Health & Well-being LinkedIn Learning Journey,Health & Well-being Community",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760510145::User+Doctor+Benefits+XS",
+              "imageAlt": null,
+              "icon": "fa-user-md",
+              "isFavicon": true
+            },
+            {
+              "title": "Your working environment",
+              "description": "Employee events, Open & global community e.g. cross-site exchange through the virtuality of all meetings, Open office spaces",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760510270::People+Arrows+Benefits+XS",
+              "imageAlt": null,
+              "icon": "fa-users",
+              "isFavicon": true
+            },
+            {
+              "title": "Rewards & benefits",
+              "description": "Fair and transparent remuneration, Success participation,Performance-related recognition, customised benefit packages",
+              "image": "https://static.vscdn.net/images/careers/demo/infineon/1760510373::Piggy+Bank+Benefits+XS",
+              "imageAlt": null,
+              "icon": "fas fa-piggy-bank",
+              "isFavicon": true
+            }
+          ],
+          "pymww": {
+            "people": [],
+            "count": 0
+          },
+          "customContent": [
+            {
+              "body": "<p style=\"text-align:center;\">For location specific benefits, please have a look<a href='https://www.infineon.com/careers/our-locations' target='_blank'> here.</a></p>",
+              "title": ""
+            }
+          ]
+        },
+        "positionUserActions": {
+          "isSaved": false,
+          "applyAction": {
+            "status": "allowed"
+          }
+        }
+      },
+      "metadata": null
+    },
+    "discovered_at": "2026-01-15T16:37:55.703348Z",
+    "career_url": "https://jobs.infineon.com/careers?domain=infineon.com&start=0&location=Germany&pid=563808968063175&sort_by=match&filter_include_remote=0",
+    "company_name": "Infineon",
+    "last_verified": "2026-01-15T16:37:55.742341Z",
+    "status": "active"
+  },
+  "valeo": {
+    "endpoint": "https://www.google.com/recaptcha/api2/reload?k=6LfpBFUpAAAAAOc9EnInikS9Lzm1a1P0wOJRHOvP",
+    "method": "POST",
+    "headers": {
+      "content-type": "application/x-protobuffer",
+      "referer": "https://www.valeo.com/en/career-in-germany/"
+    },
+    "payload_template": null,
+    "response_sample": null,
+    "discovered_at": "2026-01-15T16:41:04.998012Z",
+    "career_url": "https://www.valeo.com/en/career-in-germany/",
+    "company_name": "Valeo",
+    "last_verified": "2026-01-15T16:41:05.039857Z",
+    "status": "active"
   }
 }
