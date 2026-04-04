@@ -1,0 +1,31 @@
+name: Daily Job Scraper
+
+on:
+  schedule:
+    # Runs every day at 07:00 UTC = 09:00 Germany time (CET/CEST)
+    - cron: '0 7 * * *'
+  workflow_dispatch:   # Lets you trigger it manually from GitHub UI anytime
+
+jobs:
+  scrape-and-email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run job scraper (one-shot)
+        run: python3 job_agent.py --run-once
+        env:
+          SENDER_EMAIL:        ${{ secrets.SENDER_EMAIL }}
+          GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL:     ${{ secrets.RECIPIENT_EMAIL }}

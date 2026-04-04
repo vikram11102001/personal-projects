@@ -1,0 +1,26 @@
+[Unit]
+Description=LinkedIn AI/ML Job Agent for Germany
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# ── Edit these two paths to match your system ──────────────────────────────────
+WorkingDirectory=/home/youruser/linkedin-job-agent
+ExecStart=/home/youruser/linkedin-job-agent/venv/bin/python3 job_agent.py
+# ──────────────────────────────────────────────────────────────────────────────
+
+Restart=on-failure
+RestartSec=30s
+
+# Optional: set environment variables here instead of editing config.py
+# Environment="SENDER_EMAIL=yourgmail@gmail.com"
+# Environment="GMAIL_APP_PASSWORD=xxxx xxxx xxxx xxxx"
+# Environment="RECIPIENT_EMAIL=friend@example.com"
+# Environment="SCHEDULE_TIME=08:00"
+
+StandardOutput=append:/home/youruser/linkedin-job-agent/logs/agent.log
+StandardError=append:/home/youruser/linkedin-job-agent/logs/agent.log
+
+[Install]
+WantedBy=multi-user.target
