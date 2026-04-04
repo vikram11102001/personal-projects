@@ -501,13 +501,14 @@ def send_email(new_jobs: list, top_jobs: list):
     subject_prefix = f"🤖 [{len(new_jobs)} New]" if new_jobs else "😴 [No New Jobs]"
     subject = f"{subject_prefix} AI/ML/Data Jobs in Germany — {datetime.now().strftime('%d %b %Y')}"
 
-    # Support comma-separated list of recipients
-    recipients = [r.strip() for r in cfg["recipient_email"].split(",") if r.strip()]
+    # Support comma-separated list of recipients; strip any stray newlines/spaces
+    raw_recipients = cfg["recipient_email"].replace("\n", "").replace("\r", "")
+    recipients = [r.strip() for r in raw_recipients.split(",") if r.strip()]
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = f"Job Agent <{cfg['sender_email']}>"
-    msg["To"]      = ", ".join(recipients)
+    msg["To"]      = ", ".join(recipients)  # single-line, no folding issues
 
     msg.attach(MIMEText(build_plain_text(new_jobs, top_jobs), "plain"))
     msg.attach(MIMEText(build_email_html(new_jobs, top_jobs),  "html"))
