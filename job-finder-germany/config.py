@@ -22,8 +22,9 @@ CONFIG = {
     # Steps: Google Account → Security → 2-Step Verification → App Passwords
     "gmail_app_password": os.environ.get("GMAIL_APP_PASSWORD", "bwmx bzct ekmi cicw"),
 
-    # Email address where job digests will be delivered
-    "recipient_email": os.environ.get("RECIPIENT_EMAIL", "vikram11102001@gmail.com"),
+    # Email addresses where job digests will be delivered
+    # Separate multiple addresses with a comma, e.g. "a@gmail.com,b@gmail.com"
+    "recipient_email": os.environ.get("RECIPIENT_EMAIL", "vikram11102001@gmail.com, pratheeksha1902@gmail.com"),
 
     # ── Schedule ───────────────────────────────────────────────────────────────
     # Time to send the daily email (24-hour format, local machine time)

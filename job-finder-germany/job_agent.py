@@ -501,10 +501,13 @@ def send_email(new_jobs: list, top_jobs: list):
     subject_prefix = f"🤖 [{len(new_jobs)} New]" if new_jobs else "😴 [No New Jobs]"
     subject = f"{subject_prefix} AI/ML/Data Jobs in Germany — {datetime.now().strftime('%d %b %Y')}"
 
+    # Support comma-separated list of recipients
+    recipients = [r.strip() for r in cfg["recipient_email"].split(",") if r.strip()]
+
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = f"Job Agent <{cfg['sender_email']}>"
-    msg["To"]      = cfg["recipient_email"]
+    msg["To"]      = ", ".join(recipients)
 
     msg.attach(MIMEText(build_plain_text(new_jobs, top_jobs), "plain"))
     msg.attach(MIMEText(build_email_html(new_jobs, top_jobs),  "html"))
@@ -512,8 +515,8 @@ def send_email(new_jobs: list, top_jobs: list):
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(cfg["sender_email"], cfg["gmail_app_password"])
-            server.sendmail(cfg["sender_email"], cfg["recipient_email"], msg.as_string())
-        log.info(f"✅ Email sent to {cfg['recipient_email']} | new={len(new_jobs)} top={len(top_jobs)}")
+            server.sendmail(cfg["sender_email"], recipients, msg.as_string())
+        log.info(f"✅ Email sent to {recipients} | new={len(new_jobs)} top={len(top_jobs)}")
         return True
     except Exception as e:
         log.error(f"❌ Email failed: {e}")
@@ -568,7 +571,7 @@ if __name__ == "__main__":
         sys.exit(0)
 
     log.info(f"⏰ Scheduling daily job at {CONFIG['schedule_time']}...")
-    log.info(f"📧 Will send to: {CONFIG['recipient_email']}")
+    log.info(f"📧 Will send to: {CONFIG['recipient_email']}")  # comma-separated list supported
 
     schedule.every().day.at(CONFIG["schedule_time"]).do(run_daily_job)
 
